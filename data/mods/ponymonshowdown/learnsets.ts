@@ -543,7 +543,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	sunburst: {
 		learnset: {
-			sunburstsweatherspell: ["9L1"],
+			sunburstsweatherabjuration: ["9L1"],
 			flamethrower: ["9L1"],
 			fireblast: ["9L1"],
 			moonblast: ["9M"],

@@ -4301,7 +4301,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	zamazenta: {
 		inherit: true,
-		tier: "OU",
+		tier: "Uber",
 	},
 	zamazentacrowned: {
 		inherit: true,

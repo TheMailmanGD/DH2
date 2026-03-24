@@ -1,193 +1,122 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	krokorok: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	qwilfishhisui: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	snivy: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	dragonair: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	wimpod: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	toxelhisui: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	tadbulb: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	pikipek: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	chingling: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	baltoygearrider: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	baltoywaterrider: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	charmander: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	nymble: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	vanillite: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	spheal: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	anorith: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	jigglypuff: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	bronzor: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	wiglett: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	gible: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	vulpix: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	shuppet: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	golett: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	elgyem: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	farfetchd: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	amaura: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	wailmer: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	pikachu: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 	morelull: {
-		tier: "WM",
-		doublesTier: "dWM",
+		tier: "woomod",
+		doublesTier: "dwoomod",
 	},
 		ditto: {
 		tier: "woober",
 		doublesTier: "dwoober",
 	},
-
-	// Slate 2
-		amauramega: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	pikachumega: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	dragonairmega: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	houndour: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	koffing: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	maushold: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	hakamoo: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	kartana: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	ledyba: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	wooperpaldea: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	hoothoot: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	rabootsinnoh: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	honedge: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	roselia: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	skiploom: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	spritzee: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-	helioptile: {
-		tier: "WM",
-		doublesTier: "dWM",
-	},
-
 };

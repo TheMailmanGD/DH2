@@ -5,7 +5,7 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 	},
 	waterpulse: {
 		inherit: true,
-		basePower: 90,
+		basePower: 75,
 	},
 	hiddenpower: {
 		inherit: true,
@@ -467,7 +467,6 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 	},
 	syrupbomb: {
 		inherit: true,
-		basePower: 80,
 		accuracy: 100,
 		shortDesc: "Lowers Speed by 2 stages for 3 turns.",
 		condition: {
@@ -551,10 +550,8 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Brutal Swing', target);
 		},
-		onDamage(damage, target, source, effect) {
-			if (damage >= target.hp) {
-				this.heal(target.hp, source)
-			}
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!target || target.fainted || target.hp <= 0) this.heal(target.lastDamagedBy.damage)
 		},
 		secondary: null,
 		target: "normal",

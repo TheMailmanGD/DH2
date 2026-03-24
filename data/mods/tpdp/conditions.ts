@@ -1213,9 +1213,9 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 			return 5;
 		},
 		onModifyDamage(relayVar, source, target, move) {
-			if (move.type === "Lights") {
+			if (move.type === "Light") {
 				this.chainModify(1.5);
-			} else if (move.type === "Darks") {
+			} else if (move.type === "Dark") {
 				this.chainModify(0.5);
 			}
 		},
@@ -1238,7 +1238,7 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 		},
 	},
 	heavyfog: {
-		name: "HeavyFog",
+		name: "Heavy Fog",
 		effectType: "Weather",
 		duration: 5,
 		durationCallback(source, effect) {
@@ -1247,9 +1247,9 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 			return 5;
 		},
 		onModifyDamage(relayVar, source, target, move) {
-			if (move.type === "Darks") {
+			if (move.type === "Dark") {
 				this.chainModify(1.5);
-			} else if (move.type === "Lights") {
+			} else if (move.type === "Light") {
 				this.chainModify(0.5);
 			}
 		},
@@ -1272,7 +1272,7 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 		},
 	},
 	duststorm: {
-		name: 'DustStorm',
+		name: 'Dust Storm',
 		effectType: 'Weather',
 		duration: 5,
 		durationCallback(source, effect) {
@@ -1280,7 +1280,7 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 			if (source.hasAbility('stargazer')) return 0;
 			return 5;
 		},
-		onFieldStart(field, source, effect) {
+		onStart(field, source, effect) {
 			this.add('-message', `The weather became Dust Storm!`);
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectState.duration = 0;
@@ -1394,7 +1394,8 @@ export const Conditions: {[k: string]: ModdedConditionData & {statusSlots: 1 | 2
 			return 5;
 		},
 		onModifyMove(move, pokemon, target) {
-			if (!move.ohko) move.accuracy = true;
+			if (!move.ohko)
+				move.accuracy = true;
 			move.critRatio = 0;
 			move.breaksProtect = true;
 		},

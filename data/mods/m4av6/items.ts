@@ -1,8 +1,8 @@
 export const Items: {[itemid: string]: ModdedItemData} = {
-	dragonititey: {
-		name: "Dragonitite-Y",
+	dragonitite: {
+		name: "Dragonitite",
 		spritenum: 586,
-		megaStone: "Dragonite-Mega-Y",
+		megaStone: "Dragonite-Mega",
 		megaEvolves: "Dragonite",
 		itemUser: ["Dragonite"],
 		onTakeItem(item, source) {
@@ -181,10 +181,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Raichu, this item allows it to Mega Evolve in battle.",
 	},
-	clefabitey: {
-		name: "Clefabite-Y",
+	clefabite: {
+		name: "Clefabite",
 		spritenum: 617,
-		megaStone: "Clefable-Mega-Y",
+		megaStone: "Clefable-Mega",
 		megaEvolves: "Clefable",
 		itemUser: ["Clefable"],
 		onTakeItem(item, source) {
@@ -349,10 +349,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Slowking, this item allows it to Mega Evolve in battle.",
 	},
-	froslassitey: {
-		name: "Froslassite-Y",
+	froslassite: {
+		name: "Froslassite",
 		spritenum: 578,
-		megaStone: "Froslass-Mega-Y",
+		megaStone: "Froslass-Mega",
 		megaEvolves: "Froslass",
 		itemUser: ["Froslass"],
 		onTakeItem(item, source) {
@@ -391,10 +391,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Gothitelle, this item allows it to Mega Evolve in battle.",
 	},
-	chandelitey: {
-		name: "Chandelite-Y",
+	chandelite: {
+		name: "Chandelite",
 		spritenum: 578,
-		megaStone: "Chandelure-Mega-Y",
+		megaStone: "Chandelure-Mega",
 		megaEvolves: "Chandelure",
 		itemUser: ["Chandelure"],
 		onTakeItem(item, source) {
@@ -713,10 +713,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Trevenant, this item allows it to Mega Evolve in battle.",
 	},
-	eelektrossitey: {
-		name: "Eelektrossite-Y",
+	eelektrossite: {
+		name: "Eelektrossite",
 		spritenum: 578,
-		megaStone: "Eelektross-Mega-Y",
+		megaStone: "Eelektross-Mega",
 		megaEvolves: "Eelektross",
 		itemUser: ["Eelektross"],
 		onTakeItem(item, source) {
@@ -727,10 +727,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by an Eelektross, this item allows it to Mega Evolve in battle.",
 	},
-	dragalgitey: {
-		name: "Dragalgite-Y",
+	dragalgite: {
+		name: "Dragalgite",
 		spritenum: 578,
-		megaStone: "Dragalge-Mega-Y",
+		megaStone: "Dragalge-Mega",
 		megaEvolves: "Dragalge",
 		itemUser: ["Dragalge"],
 		onTakeItem(item, source) {
@@ -778,10 +778,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Dhelmise, this item allows it to Mega Evolve in battle.",
 	},
-	meganiumitey: {
-		name: "Meganiumite-Y",
+	meganiumite: {
+		name: "Meganiumite",
 		spritenum: 578,
-		megaStone: "Meganium-Mega-Y",
+		megaStone: "Meganium-Mega",
 		megaEvolves: "Meganium",
 		itemUser: ["Meganium"],
 		onTakeItem(item, source) {
@@ -806,10 +806,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",
 	},
-	feraligatritey: {
-		name: "Feraligatrite-Y",
+	feraligatrite: {
+		name: "Feraligatrite",
 		spritenum: 578,
-		megaStone: "Feraligatr-Mega-Y",
+		megaStone: "Feraligatr-Mega",
 		megaEvolves: "Feraligatr",
 		itemUser: ["Feraligatr"],
 		onTakeItem(item, source) {
@@ -920,10 +920,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Meowstic, this item allows it to Mega Evolve in battle.",
 	},
-	starminitey: {
-		name: "Starminite-Y",
+	starminite: {
+		name: "Starminite",
 		spritenum: 578,
-		megaStone: "Starmie-Mega-Y",
+		megaStone: "Starmie-Mega",
 		megaEvolves: "Starmie",
 		itemUser: ["Starmie"],
 		onTakeItem(item, source) {
@@ -1061,10 +1061,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Cacturne, this item allows it to Mega Evolve in battle.",
 	},
-	hawluchanitey: {
-		name: "Hawluchanite-Y",
+	hawluchanite: {
+		name: "Hawluchanite",
 		spritenum: 578,
-		megaStone: "Hawlucha-Mega-Y",
+		megaStone: "Hawlucha-Mega",
 		megaEvolves: "Hawlucha",
 		itemUser: ["Hawlucha"],
 		onTakeItem(item, source) {
@@ -1117,8 +1117,8 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Zoroark, this item allows it to Mega Evolve in battle.",
 	},
-	delphitey: {
-		name: "Delphite-Y",
+	delphite: {
+		name: "Delphite",
 		spritenum: 578,
 		megaStone: "Delphox-Mega",
 		megaEvolves: "Delphox",
@@ -1876,10 +1876,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Florges, this item allows it to Mega Evolve in battle.",
 	},
-	skarmoritey: {
-		name: "Skarmorite-Y",
+	skarmorite: {
+		name: "Skarmorite",
 		spritenum: 578,
-		megaStone: "Skarmory-Mega-Y",
+		megaStone: "Skarmory-Mega",
 		megaEvolves: "Skarmory",
 		itemUser: ["Skarmory"],
 		onTakeItem(item, source) {
@@ -1904,10 +1904,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Druddigon, this item allows it to Mega Evolve in battle.",
 	},
-	chesnitey: {
-		name: "Chesnite-Y",
+	chesnite: {
+		name: "Chesnite",
 		spritenum: 578,
-		megaStone: "Chesnaught-Mega-Y",
+		megaStone: "Chesnaught-Mega",
 		megaEvolves: "Chesnaught",
 		itemUser: ["Chesnaught"],
 		onTakeItem(item, source) {
@@ -1974,10 +1974,10 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Lapras, this item allows it to Mega Evolve in battle.",
 	},
-	pyroaritey: {
-		name: "Pyroarite-Y",
+	pyroarite: {
+		name: "Pyroarite",
 		spritenum: 578,
-		megaStone: "Pyroar-Mega-Y",
+		megaStone: "Pyroar-Mega",
 		megaEvolves: "Pyroar",
 		itemUser: ["Pyroar"],
 		onTakeItem(item, source) {

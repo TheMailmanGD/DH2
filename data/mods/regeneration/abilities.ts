@@ -196,13 +196,13 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onAfterUseItem(item, pokemon) {
 			if (pokemon !== this.effectState.target && pokemon.baseSpecies.baseSpecies !== 'Gyarados' || pokemon.transformed) return;
 				if (pokemon.species.forme !== 'Mega') {
-					pokemon.formeChange('Gyarados-Mega', this.effect, true);
+					pokemon.formeChange('Gyarados-Mega');
 		      }
 		},
 		onTakeItem(item, pokemon) {
 			if (pokemon !== this.effectState.target && pokemon.baseSpecies.baseSpecies !== 'Gyarados' || pokemon.transformed) return;
 				if (pokemon.species.forme !== 'Mega') {
-					pokemon.formeChange('Gyarados-Mega', this.effect, true);
+					pokemon.formeChange('Gyarados-Mega');
 			   }
 		},
 		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},

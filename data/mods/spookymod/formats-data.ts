@@ -1,5 +1,3 @@
-import { ModdedSpeciesFormatsData } from "../../../sim/dex-species";
-
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aegislash: {
 		tier: "SM",
@@ -69,7 +67,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "SM",
 		doublesTier: "DOU",
 	},
-	nursola: {
+	necturna: {
 		tier: "SM",
 		doublesTier: "DOU",
 	},
@@ -101,11 +99,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "SM",
 		doublesTier: "DOU",
 	},
-	kilotic: {
+	venomicon: {
 		tier: "SM",
 		doublesTier: "DOU",
 	},
-	vampharos: {
+	venomiconepilogue: {
 		tier: "SM",
 		doublesTier: "DOU",
 	},
@@ -193,7 +191,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},
-	nursolashrunken: {
+	necturnashrunken: {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},
@@ -225,11 +223,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},
-	kiloticshrunken: {
+	venomiconshrunken: {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},
-	vampharosshrunken: {
+	venomiconepilogueshrunken: {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},

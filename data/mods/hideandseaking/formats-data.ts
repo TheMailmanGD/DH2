@@ -213,7 +213,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	nidoking: {
 		inherit: true,
-		tier: "Uber",
+		tier: "RU",
 	},
 	cleffa: {
 		inherit: true,
@@ -3157,7 +3157,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	kyurem: {
 		inherit: true,
-		tier: "Uber",
+		tier: "UUBL",
 	},
 	kyuremblack: {
 		inherit: true,
@@ -3281,7 +3281,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	florges: {
 		inherit: true,
-		tier: "Uber",
+		tier: "RU",
 	},
 	skiddo: {
 		inherit: true,
@@ -3993,7 +3993,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	melmetal: {
 		inherit: true,
-		tier: "Uber",
+		tier: "OU",
 	},
 	grookey: {
 		inherit: true,
@@ -4301,7 +4301,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	zamazenta: {
 		inherit: true,
-		tier: "Uber",
+		tier: "OU",
 	},
 	zamazentacrowned: {
 		inherit: true,
@@ -4325,7 +4325,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	zarude: {
 		inherit: true,
-		tier: "Uber",
+		tier: "RU",
 	},
 	regieleki: {
 		inherit: true,

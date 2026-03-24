@@ -19,7 +19,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Fightings' && source.useItem()) {
+			if (move.type === 'Fighting' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -29,7 +29,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Fighting skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Fightings') {
+			if (move && move.type === 'Fighting') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -40,7 +40,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Poisons' && source.useItem()) {
+			if (move.type === 'Poison' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -50,7 +50,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Poison skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Poisons') {
+			if (move && move.type === 'Poison') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -70,7 +70,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Water-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Waters' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Water' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -88,7 +88,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Electric-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Electrics' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Electric' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -106,7 +106,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Dark-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Darks' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Dark' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -140,7 +140,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Earth-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Earths' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Earth' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -158,7 +158,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Fighting-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Fightings' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Fighting' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -176,7 +176,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Fire-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Fires' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Fire' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -212,7 +212,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Light-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Lights' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Light' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -248,7 +248,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Sound-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Sounds' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Sound' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -266,7 +266,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Steel-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Steels' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Steel' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -284,7 +284,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, damage dealt from Poison-skills will be reduced once.",
 		isBerry: true,
 		onSourceModifyDamage(damage, source, target, move) {
-			if (move.type === 'Poisons' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
+			if (move.type === 'Poison' && (target.getMoveHitData(move).typeMod > 0 || this.format.mod.endsWith("tpdp"))) {
 				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
 				if (hitSub) return;
 
@@ -477,7 +477,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		rating: 1,
 		shortDesc: "When the opposing Puppet's stats are changed the Puppet holding this will reflect the same stat changes.",
 		onFoeAfterBoost(boost, target, source, effect) {
-			if (effect?.name === 'Harassment' || effect?.name === 'Bronze Mirror') return;
+			if (effect?.fullname?.endsWith('Bronze Mirror')) return;
 			const boostPlus: SparseBoostsTable = {};
 			let statsRaised = false;
 			let i: BoostID;
@@ -942,7 +942,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Steels' && source.useItem()) {
+			if (move.type === 'Steel' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -952,7 +952,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Steel skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Steels') {
+			if (move && move.type === 'Steel') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1036,7 +1036,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		onResidualOrder: 5,
 		onResidualSubOrder: 4,
 		onResidual(pokemon) {
-			if (pokemon.hasType('Poisons')) {
+			if (pokemon.hasType('Poison')) {
 				this.heal(pokemon.baseMaxhp / 16);
 			} else {
 				this.damage(pokemon.baseMaxhp / 8);
@@ -1171,7 +1171,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Darks' && source.useItem()) {
+			if (move.type === 'Dark' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1181,7 +1181,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Dark skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Darks') {
+			if (move && move.type === 'Dark') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1208,7 +1208,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Sounds' && source.useItem()) {
+			if (move.type === 'Sound' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1218,7 +1218,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Sound skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Sounds') {
+			if (move && move.type === 'Sound') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1229,7 +1229,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isBerry: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Lights' && source.useItem()) {
+			if (move.type === 'Light' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1239,7 +1239,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Light skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Lights') {
+			if (move && move.type === 'Light') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1306,7 +1306,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Earth skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Earths') {
+			if (move && move.type === 'Earth') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1314,7 +1314,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	radianthairpin: {
 		name: "Radiant Hairpin",
 		rating: 3,
-		shortDesc: "100%: Holder's moves have 1.3x power. Lower: less power as HP decreases.",
+		shortDesc: "This Puppet's skills gain 1% more power for each percent above 70%.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			function remap(value:number, low1:number, high1:number, low2:number, high2:number):number {
@@ -1466,7 +1466,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Fires' && source.useItem()) {
+			if (move.type === 'Fire' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1476,7 +1476,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Fire skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Fires') {
+			if (move && move.type === 'Fire') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1491,7 +1491,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Waters' && source.useItem()) {
+			if (move.type === 'Water' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1501,7 +1501,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Water skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Waters') {
+			if (move && move.type === 'Water') {
 				return this.chainModify(1.2);
 			}
 		},
@@ -1657,7 +1657,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Earths' && source.useItem()) {
+			if (move.type === 'Earth' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1668,7 +1668,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isGem: true,
 		onSourceTryPrimaryHit(target, source, move) {
 			if (target === source || move.category === 'Status') return;
-			if (move.type === 'Electrics' && source.useItem()) {
+			if (move.type === 'Electric' && source.useItem()) {
 				source.addVolatile('gem');
 			}
 		},
@@ -1678,7 +1678,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		shortDesc: "When held, the power of Electric skills is boosted.",
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Electrics') {
+			if (move && move.type === 'Electric') {
 				return this.chainModify(1.2);
 			}
 		},

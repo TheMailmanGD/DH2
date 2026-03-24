@@ -36,14 +36,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: {0: "Keen Eye", 1: "Prankster"},
 	},
-	spinarak: {
-		inherit: true,
-		abilities: {0: "Swarm", 1: "Poison Touch"},
-	},
 	ariados: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 95, def: 85, spa: 50, spd: 60, spe: 80},
-		abilities: {0: "Swarm", 1: "Poison Touch"},
 	},
 	sunflora: {
 		inherit: true,
@@ -65,7 +60,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	charizard: {
 		inherit: true,
-		abilities: {0: "Blaze", 1: "Infiltrator"},
+		abilities: {0: "Blaze", 1: "Flame Body"},
 	},
 	blastoise: {
 		inherit: true,
@@ -152,7 +147,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	abomasnow: {
 		inherit: true,
-		baseStats: {hp: 90, atk: 92, def: 85, spa: 92, spd: 95, spe: 60},
 		abilities: {0: "Snow Warning"},
 		gen: 3,
 	},
@@ -166,7 +160,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	rhyperior: {
 		inherit: true,
-		abilities: {0: "Rough Skin", 1: "Solid Rock"},
+		abilities: {0: "Rough Skin", 1: "Rock Head"},
 		gen: 3,
 	},
 	cacnea: {
@@ -223,7 +217,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	ambipom: {
 		inherit: true,
-		abilities: {0: "Long Reach", 1: "Pickup"},
+		abilities: {0: "Run Away", 1: "Pickup"},
 		gen: 3,
 	},
 	probopass: {
@@ -297,14 +291,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: {0: "Natural Cure", 1: "Poison Point"},
 		gen: 3,
 	},
-	dusclops: {
-		inherit: true,
-		abilities: {0: "Pressure", 1: "Frisk"},
-		gen: 3,
-	},
 	dusknoir: {
 		inherit: true,
-		abilities: {0: "Pressure", 1: "Frisk"},
+		abilities: {0: "Pressure"},
 		gen: 3,
 	},
 	rotom: {
@@ -322,19 +311,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: {0: "Oblivious", 1: "Thick Fat"},
 		gen: 3,
 	},
-	sneasel: {
-		inherit: true,
-		abilities: {0: "Inner Focus", 1: "Frisk"},
-		gen: 3,
-	},
 	weavile: {
 		inherit: true,
-		abilities: {0: "Pressure", 1: "Frisk"},
+		abilities: {0: "Pressure"},
 		gen: 3,
 	},
 	tangrowth: {
 		inherit: true,
-		abilities: {0: "Chlorophyll", 1: "Long Reach"},
+		abilities: {0: "Chlorophyll"},
 		gen: 3,
 	},
 	yanmega: {
@@ -344,7 +328,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	honchkrow: {
 		inherit: true,
-		abilities: {0: "Insomnia", 1: "Frisk"},
+		abilities: {0: "Insomnia"},
 		gen: 3,
 	},
 	gliscor: {
@@ -381,87 +365,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: {0: "Natural Cure", 1: "Poison Point"},
 		gen: 3,
 	},
-	glaceon: {
-		inherit: true,
-		abilities: {0: "Slush Rush"},
-		gen: 3,
-	},
-	leafeon: {
-		inherit: true,
-		abilities: {0: "Chlorophyll"},
-		gen: 3,
-	},
-	manaphy: {
-		inherit: true,
-		abilities: {0: "Hydration"},
-		gen: 3,
-	},
-	phione: {
-		inherit: true,
-		abilities: {0: "Hydration"},
-		gen: 3,
-	},
-	turtonator: {
-		inherit: true,
-		abilities: {0: "Shell Armor", 1: "Magma Armor"},
-		gen: 3,
-	},
-	crabrawler: {
-		inherit: true,
-		abilities: {0: "Hyper Cutter"},
-		gen: 3,
-	},
-	crabominable: {
-		inherit: true,
-		baseStats: {hp: 97, atk: 112, def: 77, spa: 82, spd: 67, spe: 43},
-		abilities: {0: "Hyper Cutter", 1: "Slush Rush"},
-		gen: 3,
-	},
-	panpour: {
-		inherit: true,
-		abilities: {0: "Oblivious", 1: "Torrent"},
-		gen: 3,
-	},
-	simipour: {
-		inherit: true,
-		abilities: {0: "Oblivious", 1: "Torrent"},
-		gen: 3,
-	},
-	pansage: {
-		inherit: true,
-		abilities: {0: "Soundproof", 1: "Overgrow"},
-		gen: 3,
-	},
-	simisage: {
-		inherit: true,
-		abilities: {0: "Soundproof", 1: "Overgrow"},
-		gen: 3,
-	},
-	pansear: {
-		inherit: true,
-		abilities: {0: "Pressure", 1: "Blaze"},
-		gen: 3,
-	},
-	simisear: {
-		inherit: true,
-		abilities: {0: "Pressure", 1: "Blaze"},
-		gen: 3,
-	},
-	mimikyu: {
-		inherit: true,
-		types: ["Normal", "Ghost"],
-		gen: 3,
-	},
-	mimikyubusted: {
-		inherit: true,
-		types: ["Normal", "Ghost"],
-		gen: 3,
-	},
 
 	// me when
 	breloom: {
 		inherit: true,
-		abilities: {0: "Effect Spore", 1: "Long Reach"},
+		abilities: {0: "Effect Spore"},
 	},
 	shroomish: {
 		inherit: true,
@@ -489,7 +397,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	linoone: {
 		inherit: true,
-		abilities: {0: "Pickup", 1: "Frisk"},
+		abilities: {0: "Pickup"},
 	},
 	machop: {
 		inherit: true,
@@ -529,7 +437,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	banette: {
 		inherit: true,
-		abilities: {0: "Insomnia", 1: "Frisk"},
+		abilities: {0: "Insomnia"},
+	},
+	camerupt: {
+		inherit: true,
+		abilities: {0: "Magma Armor"},
 	},
 	numel: {
 		inherit: true,
@@ -565,7 +477,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	hitmonchan: {
 		inherit: true,
-		abilities: {0: "Long Reach"},
+		abilities: {0: "Keen Eye"},
 	},
 	tyrogue: {
 		inherit: true,
@@ -613,7 +525,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	nidoking: {
 		inherit: true,
-		abilities: {0: "Poison Touch"},
+		abilities: {0: "Poison Point"},
 	},
 	meowth: {
 		inherit: true,
@@ -621,11 +533,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	persian: {
 		inherit: true,
-		abilities: {0: "Limber", 1: "Frisk"},
-	},
-	smeargle: {
-		inherit: true,
-		abilities: {0: "Own Tempo"},
+		abilities: {0: "Limber"},
 	},
 	pinsir: {
 		inherit: true,
@@ -665,7 +573,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	murkrow: {
 		inherit: true,
-		abilities: {0: "Insomnia", 1: "Frisk"},
+		abilities: {0: "Insomnia"},
 	},
 	remoraid: {
 		inherit: true,
@@ -737,11 +645,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	paras: {
 		inherit: true,
-		abilities: {0: "Effect Spore", 1: "Dry Skin"},
+		abilities: {0: "Effect Spore"},
 	},
 	parasect: {
 		inherit: true,
-		abilities: {0: "Effect Spore", 1: "Dry Skin"},
+		abilities: {0: "Effect Spore"},
 	},
 	porygon: {
 		inherit: true,
@@ -765,42 +673,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	cloyster: {
 		inherit: true,
-		abilities: {0: "Shell Armor", 1: "Slush Rush"},
-	},
-	aggron: {
-		inherit: true,
-		abilities: {0: "Solid Rock", 1: "Rock Head"},
-	},
-	golem: {
-		inherit: true,
-		abilities: {0: "Rock Head", 1: "Solid Rock"},
-	},
-	zangoose: {
-		inherit: true,
-		abilities: {0: "Immunity", 1: "Infiltrator"},
-	},
-	seviper: {
-		inherit: true,
-		abilities: {0: "Shed Skin", 1: "Infiltrator"},
-	},
-	ninjask: {
-		inherit: true,
-		abilities: {0: "Speed Boost", 1: "Infiltrator"},
-	},
-	sandslash: {
-		inherit: true,
-		abilities: {0: "Sand Veil", 1: "Infiltrator"},
-	},
-	fearow: {
-		inherit: true,
-		abilities: {0: "Keen Eye", 1: "Infiltrator"},
-	},
-	beedrill: {
-		inherit: true,
-		abilities: {0: "Swarm", 1: "Poison Touch"},
-	},
-	camerupt: {
-		inherit: true,
-		abilities: {0: "Magma Armor", 1: "Solid Rock"},
+		abilities: {0: "Shell Armor"},
 	},
 };

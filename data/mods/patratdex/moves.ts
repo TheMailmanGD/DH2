@@ -20,23 +20,9 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		maxMove: {basePower: 100},
 		contestType: "Tough",
 	},
-	bramblecage: {
-		num: 9002,
-		accuracy: 100,
-		basePower: 80,
-		category: "Physical",
-		shortDesc: "Traps and damages the target for 4-5 turns.",
-		name: "Bramble Cage",
-		pp: 5,
-		priority: 0,
-		flags: { protect: 1, mirror: 1 },
-		volatileStatus: 'partiallytrapped',
-		secondary: null,
-		target: "normal",
-		type: "Grass",
-	},
+
 	citrusblast: {
-		num: 9003,
+		num: 9002,
 		accuracy: 90,
 		basePower: 120,
 		category: "Special",
@@ -60,28 +46,9 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		type: "Grass",
 		contestType: "Tough",
 	},
-	coalrush: {
-		num: 9004,
-		accuracy: 100,
-		basePower: 70,
-		category: "Physical",
-		shortDesc: "At 50% HP or less: +1 priority.",
-		name: "Coal Rush",
-		pp: 10,
-		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		onModifyPriority(priority, source, target, move) {
-			if (source.hp * 2 <= source.maxhp) {
-				return priority + 1;
-			}
-		},
-		secondary: null,
-		target: "normal",
-		type: "Fire",
-		contestType: "Tough",
-	},
+
 	herosignal: {
-		num: 9005,
+		num: 9003,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -106,7 +73,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	},
 
 	landsweep: {
-		num: 9006,
+		num: 9004,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
@@ -152,7 +119,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	},
 
 	magmamash: {
-		num: 9007,
+		num: 9005,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -177,7 +144,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	},
 
 	naturesbounty: {
-		num: 9008,
+		num: 9006,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
@@ -185,7 +152,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		name: "Nature's Bounty",
 		pp: 5,
 		priority: 0,
-		flags: {nonsky: 1,protect: 1, mirror: 1},
+		flags: {nonsky: 1},
 		terrain: 'grassyterrain',
 		onPrepareHit(target, source, move) {
 		    this.attrLastMove('[still]');
@@ -241,26 +208,8 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		contestType: "Beautiful",
 	},
 
-	oilshot: {
-		num: 9009,
-		accuracy: 100,
-		basePower: 70,
-		category: "Special",
-		shortDesc: "Blocks healing for 2 turns.",
-		name: "Oil Shot",
-		pp: 10,
-		priority: 0,
-		flags: {protect: 1, mirror: 1, metronome: 1},
-		secondary: {
-			chance: 100,
-			volatileStatus: 'healblock',
-		},
-		target: "normal",
-		type: "Water",
-	},
-
 	triwavebeam: {
-		num: 9010,
+		num: 9007,
 		accuracy: true,
 		basePower: 20,
 		category: "Special",
@@ -282,7 +231,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	},
 
 	wheatshield: {
-		num: 9011,
+		num: 588,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",

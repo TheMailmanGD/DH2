@@ -4670,33 +4670,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	surgesurfer: {
 		onModifySpe(spe) {
-			return this.chainModify(2);
-		},
-		onStart(source) {
-			if (this.field.setTerrain('electricterrain')) {
-				this.field.terrainState.duration = 0;
-			} else if (this.field.isTerrain('electricterrain') && this.field.terrainState.duration !== 0) {
-				this.add('-ability', source, 'Surge Surfer');
-				this.field.terrainState.source = source;
-				this.field.terrainState.duration = 0;
+			if (this.field.isTerrain('electricterrain')) {
+				return this.chainModify(2);
 			}
-		},
-		onEnd(pokemon) {
-			if (this.field.terrainState.source !== pokemon || !this.field.isTerrain('electricterrain')) return;
-			for (const target of this.getAllActive()) {
-				if (target === pokemon) continue;
-				if (target.hasAbility('surgesurfer')) {
-					this.field.terrainState.source = target;
-					return;
-				}
-			}
-			pokemon.m.forceCustomBlock = true;
-			this.field.clearTerrain();
-			pokemon.m.forceCustomBlock = null;
 		},
 		flags: {},
 		name: "Surge Surfer",
-		shortDesc: "Electric Terrain is active; this Pokemon's Spe is doubled.",
 		rating: 3,
 		num: 207,
 	},

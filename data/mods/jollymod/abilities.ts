@@ -36,7 +36,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onModifyType(move, pokemon) {
 			if (move.flags['sound']) {
 				move.type = 'Ice';
-				move.flags.kindanice = 1;
+				move.kindanice = true;
 			}
 		},
 		flags: {},
@@ -101,42 +101,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Fightning Rod",
 		shortDesc: "This Pokemon draws Fighting moves to itself to raise Atk by 1; Fighting immunity.",
 	},
-	ghostofchristmaspast: {
-		onBeforeSwitchIn(pokemon) {
-			pokemon.illusion = null;
-			// yes, you can Illusion an active pokemon but only if it's to your right
-			for (let i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
-				const possibleTarget = pokemon.side.pokemon[i];
-				if (!possibleTarget.fainted) {
-					// If Ogerpon is in the last slot while the Illusion Pokemon is Terastallized
-					// Illusion will not disguise as anything
-					if (!pokemon.terastallized || possibleTarget.species.baseSpecies !== 'Ogerpon') {
-						pokemon.illusion = possibleTarget;
-					}
-					break;
-				}
-			}
-		},
-		onEnd(pokemon) {
-			if (pokemon.illusion) {
-				this.debug('illusion cleared');
-				pokemon.illusion = null;
-				const details = pokemon.species.name + (pokemon.level === 100 ? '' : ', L' + pokemon.level) +
-					(pokemon.gender === '' ? '' : ', ' + pokemon.gender) + (pokemon.set.shiny ? ', shiny' : '');
-				this.add('replace', pokemon, details);
-				this.add('-end', pokemon, 'Illusion');
-				if (this.ruleTable.has('illusionlevelmod')) {
-					this.hint("Illusion Level Mod is active, so this Pok\u00e9mon's true level was hidden.", true);
-				}
-			}
-		},
-		onFaint(pokemon) {
-			pokemon.illusion = null;
-		},
-		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1},
-		name: "Ghost of Christmas Past",
-		shortDesc: "This Pokemon appears as the last Pokemon in the party.",
-	},
 	ghostofchristmaspresent: {
 		onBasePowerPriority: 24,
 		onBasePower(basePower, attacker, defender, move) {
@@ -165,7 +129,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	grinchsapprentice: {
 		onModifyMove(move) {
-			move.flags.naughty = 1;
+			move.naughty = true;
 		},
 		flags: {},
 		name: "Grinch's Apprentice",
@@ -207,17 +171,9 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Ice Face",
 		shortDesc: "If Eiscue, changes Forme to Noice before attacks and base before Protect.",
 	},
-	jinglebells: {
-		onModifyMove(move) {
-			if(move.flags['sound']) move.flags.nice = 1;
-		},
-		flags: {},
-		name: "Jolly Spirit",
-		shortDesc: "This Pokemon's sound moves increase its karma by 1.",
-	},
 	jollyspirit: {
 		onModifyMove(move) {
-			if(move.flags['nice']) move.flags.extranice = 1;
+			if(move.flags['nice']) move.extranice = true;
 		},
 		flags: {},
 		name: "Jolly Spirit",
@@ -289,18 +245,18 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	zenmode: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
-			if (target.baseSpecies.baseSpecies !== 'Zen Galarian Darmanitan' || target.transformed) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Zen Galarian Darmanitan' || pokemon.transformed) {
 				return;
 			}
-			if (target.species.id !== 'zengalariandarmanitanzen') target.formeChange('Zen Galarian Darmanitan-Zen');
+			if (pokemon.species.id !== 'zengalariandarmanitanzen') pokemon.formeChange('Zen Galarian Darmanitan-Zen');
 		},
 		name: "Zen Mode",
 		shortDesc: "If Zen Galarian Darmanitan, change Mode to Zen when damaged by an attack.",
 	},
 	moody: {
 		onModifyMove(move) {
-			if(this.randomChance(1, 2)) move.flags.naughty = 1;
-			else move.flags.extranice = 1;
+			if(this.randomChance(1, 2)) move.naughty = true;
+			else move.extranice = true;
 		},
 		flags: {},
 		name: "Moody",

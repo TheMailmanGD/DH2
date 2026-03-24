@@ -1,7 +1,6 @@
 export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	absol: {
 		inherit: true,
-		baseStats: {hp: 85, atk: 130, def: 60, spa: 75, spd: 60, spe: 90},
 		abilities: {0: "Magic Bounce", 1: "Super Luck", H: "Justified"},
 	},
 	accelgor: {
@@ -24,10 +23,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	glaceon: {
 		inherit: true,
 		abilities: {0: "Ice Body", H: "Pale Winds"},
-	},
-	claydol: {
-		inherit: true,
-		abilities: {0: "Psychovalence"},
 	},
 	falinkshammer: {
 		name: "Falinks-Hammer",
@@ -71,11 +66,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		weightkg: 700.7,
 		prevo: "Avalugg-Alpine",
 	},
-	bellossom: {
-		inherit: true,
-		abilities: {0: "Chlorophyll", H: "Regenerator"},
-		baseStats: {hp: 75, atk: 65, def: 105, spa: 95, spd: 100, spe: 50},
-	},
 	bellibrr: {
 		name: "Bellibrr",
 		copyData: "Bellibolt",
@@ -89,10 +79,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		evoType: "other",
 		evoCondition: "A newly-discovered evolution",
 		creator: "quagsi",
-	},
-	primeape: {
-		inherit: true,
-		baseStats: {hp: 90, atk: 105, def: 60, spa: 60, spd: 75, spe: 95},
 	},
 	porygreen: {
 		name: "Porygreen",
@@ -135,7 +121,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		copyData: "Kricketune",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 101, atk: 85, def: 91, spa: 111, spd: 91, spe: 65},
-		abilities: {0: "Swarm", H: "Technician"},
+		abilities: {0: "Speed Boost", H: "Technician"},
 		movepoolAdditions: ["compost", "roost", "darkpulse", "rapidspin", "metronome"],
 		heightm: 1.1,
 		weightkg: 26.0,
@@ -290,10 +276,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		inherit: true,
 		abilities: {0: "Sturdy", 1: "Rock Head", H: "Fauxliage"},
 	},
-	shiftry: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 100, def: 70, spa: 70, spd: 70, spe: 90},
-	},
 	goodra: {
 		num: 706,
 		name: "Goodra",
@@ -414,10 +396,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		requiredAbility: "Forecast",
 		battleOnly: "Cyclonimbus",
 	},
-	sandslash: {
-		inherit: true,
-		types: ["Ground", "Rock"],
-	},
 	stormulex: {
 		num: 9003,
 		name: "Stormulex",
@@ -519,20 +497,11 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	},
 	lapras: {
 		inherit: true,
-		baseStats: {hp: 130, atk: 85, def: 80, spa: 125, spd: 105, spe: 75},
 		abilities: {0: "Lightning Rod", 1: "Shell Armor", H: "Hydration"},
 	},
 	snover: {
 		inherit: true,
 		evos: ["Abomasnow", "Skiversnow"],
-	},
-	abomasnow: {
-		inherit: true,
-		baseStats: {hp: 90, atk: 92, def: 95, spa: 92, spd: 105, spe: 20},
-	},
-	abomasnowmega: {
-		inherit: true,
-		baseStats: {hp: 90, atk: 132, def: 105, spa: 132, spd: 115, spe: 20},
 	},
 	skiversnow: {
 		name: "Skiversnow",
@@ -554,7 +523,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	},
 	leavanny: {
 		inherit: true,
-		baseStats: {hp: 75, atk: 113, def: 80, spa: 70, spd: 80, spe: 112},
+		baseStats: {hp: 75, atk: 103, def: 80, spa: 70, spd: 80, spe: 92},
 		abilities: {0: "Swarm", 1: "Chlorophyll", H: "Technician"},
 	},
 	noibat: {

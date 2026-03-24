@@ -16,11 +16,4 @@ export const Aliases: {[alias: string]: string} = {
 	floeleefwhite: "Floeleef",
 	toxtricorioampedpompom: "Toxtricorio",
 	samureedeem: "Samureedee",
-	miniklawred: "Miniklaw",
-	miniklaworange: "Miniklaw",
-	miniklawyellow: "Miniklaw",
-	miniklawgreen: "Miniklaw",
-	miniklawblue: "Miniklaw",
-	miniklawindigo: "Miniklaw",
-	miniklawviolet: "Miniklaw",
 };

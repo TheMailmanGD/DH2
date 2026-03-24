@@ -2,193 +2,191 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 
 	// Central Kalos
 
-	chespin: {tier: "Kalos (LC)"},
+	chespin: {tier: "Kalos (NFE)"},
 	quilladin: {tier: "Kalos (NFE)"},
 	chesnaught: {tier: "Kalos"},
 
-	fennekin: {tier: "Kalos (LC)"},
+	fennekin: {tier: "Kalos (NFE)"},
 	braixen: {tier: "Kalos (NFE)"},
 	delphox: {tier: "Kalos"},
 
-	froakie: {tier: "Kalos (LC)"},
+	froakie: {tier: "Kalos (NFE)"},
 	frogadier: {tier: "Kalos (NFE)"},
-	greninja: {tier: "Kalos OU"},
+	greninja: {tier: "Kalos Uber"},
 
-	bunnelby: {tier: "Kalos (LC)"},
+	bunnelby: {tier: "Kalos (NFE)"},
 	diggersby: {tier: "Kalos"},
 
-	zigzagoon: {tier: "Kalos (LC)"},
+	zigzagoon: {tier: "Kalos (NFE)"},
 	linoone: {tier: "Kalos"},
 
-	fletchling: {tier: "Kalos (LC)"},
+	fletchling: {tier: "Kalos (NFE)"},
 	fletchinder: {tier: "Kalos (NFE)"},
-	talonflame: {tier: "Kalos OU"},
+	talonflame: {tier: "Kalos"},
 
-	pidgey: {tier: "Kalos (LC)"},
+	pidgey: {tier: "Kalos (NFE)"},
 	pidgeotto: {tier: "Kalos (NFE)"},
 	pidgeot: {tier: "Kalos"},
 	pidgeotmega: {tier: "Kalos"},
 
-	scatterbug: {tier: "Kalos (LC)"},
+	scatterbug: {tier: "Kalos (NFE)"},
 	spewpa: {tier: "Kalos (NFE)"},
 	vivillon: {tier: "Kalos"},
 
-	caterpie: {tier: "Kalos (LC)"},
+	caterpie: {tier: "Kalos (NFE)"},
 	metapod: {tier: "Kalos (NFE)"},
 	butterfree: {tier: "Kalos"},
 
-	weedle: {tier: "Kalos (LC)"},
+	weedle: {tier: "Kalos (NFE)"},
 	kakuna: {tier: "Kalos (NFE)"},
 	beedrill: {tier: "Kalos"},
 	beedrillmega: {tier: "Kalos"},
 
-	pansage: {tier: "Kalos (LC)"},
+	pansage: {tier: "Kalos (NFE)"},
 	simisage: {tier: "Kalos"},
 
-	pansear: {tier: "Kalos (LC)"},
+	pansear: {tier: "Kalos (NFE)"},
 	simisear: {tier: "Kalos"},
 
-	panpour: {tier: "Kalos (LC)"},
+	panpour: {tier: "Kalos (NFE)"},
 	simipour: {tier: "Kalos"},
 
-	pichu: {tier: "Kalos (LC)"},
+	pichu: {tier: "Kalos (NFE)"},
 	pikachu: {tier: "Kalos (NFE)"},
 	raichu: {tier: "Kalos"},
 
-	bidoof: {tier: "Kalos (LC)"},
+	bidoof: {tier: "Kalos (NFE)"},
 	bibarel: {tier: "Kalos"},
 
 	dunsparce: {tier: "Kalos"},
 
-	azurill: {tier: "Kalos (LC)"},
+	azurill: {tier: "Kalos (NFE)"},
 	marill: {tier: "Kalos (NFE)"},
 	azumarill: {tier: "Kalos"},
 
-	burmy: {tier: "Kalos (LC)"},
+	burmy: {tier: "Kalos (NFE)"},
 	wormadam: {tier: "Kalos"},
 	wormadamsandy: {tier: "Kalos"},
 	wormadamtrash: {tier: "Kalos"},
 	mothim: {tier: "Kalos"},
 
-	surskit: {tier: "Kalos (LC)"},
+	surskit: {tier: "Kalos (NFE)"},
 	masquerain: {tier: "Kalos"},
 
-	magikarp: {tier: "Kalos (LC)"},
+	magikarp: {tier: "Kalos (NFE)"},
 	gyarados: {tier: "Kalos"},
-	gyaradosmega: {tier: "Kalos OU"},
+	gyaradosmega: {tier: "Kalos"},
 
-	corphish: {tier: "Kalos (LC)"},
+	corphish: {tier: "Kalos (NFE)"},
 	crawdaunt: {tier: "Kalos"},
 
-	goldeen: {tier: "Kalos (LC)"},
+	goldeen: {tier: "Kalos (NFE)"},
 	seaking: {tier: "Kalos"},
 
-	carvanha: {tier: "Kalos (LC)"},
+	carvanha: {tier: "Kalos (NFE)"},
 	sharpedo: {tier: "Kalos"},
 	sharpedomega: {tier: "Kalos"},
 
-	litleo: {tier: "Kalos (LC)"},
+	litleo: {tier: "Kalos (NFE)"},
 	pyroar: {tier: "Kalos"},
 
-	psyduck: {tier: "Kalos (LC)"},
+	psyduck: {tier: "Kalos (NFE)"},
 	golduck: {tier: "Kalos"},
 
 	farfetchd: {tier: "Kalos"},
 
-	riolu: {tier: "Kalos (LC)"},
+	riolu: {tier: "Kalos (NFE)"},
 	lucario: {tier: "Kalos"},
 	lucariomega: {tier: "Kalos Uber"},
 
-	ralts: {tier: "Kalos (LC)"},
+	ralts: {tier: "Kalos (NFE)"},
 	kirlia: {tier: "Kalos (NFE)"},
 	gardevoir: {tier: "Kalos"},
-	gardevoirmega: {tier: "Kalos OU"},
+	gardevoirmega: {tier: "Kalos"},
 	gallade: {tier: "Kalos"},
-	gallademega: {tier: "Kalos OU"},
+	gallademega: {tier: "Kalos"},
 
-	flabebe: {tier: "Kalos (LC)"},
+	flabebe: {tier: "Kalos (NFE)"},
 	floette: {tier: "Kalos (NFE)"},
 	florges: {tier: "Kalos"},
 
-	budew: {tier: "Kalos (LC)"},
+	budew: {tier: "Kalos (NFE)"},
 	roselia: {tier: "Kalos (NFE)"},
 	roserade: {tier: "Kalos"},
 
-	ledyba: {tier: "Kalos (LC)"},
-	ledian: {tier: "Kalos (NFE)"},
-	ledellar: {tier: "Kalos OU"},
+	ledyba: {tier: "Kalos (NFE)"},
+	ledian: {tier: "Kalos"},
 
-	combee: {tier: "Kalos (LC)"},
+	combee: {tier: "Kalos (NFE)"},
 	vespiquen: {tier: "Kalos"},
 
-	skitty: {tier: "Kalos (LC)"},
+	skitty: {tier: "Kalos (NFE)"},
 	delcatty: {tier: "Kalos"},
-	delcattykalos: {tier: "Kalos"},
 
-	bulbasaur: {tier: "Kalos (LC)"},
+	bulbasaur: {tier: "Kalos (NFE)"},
 	ivysaur: {tier: "Kalos (NFE)"},
 	venusaur: {tier: "Kalos"},
 	venusaurmega: {tier: "Kalos"},
 
-	charmander: {tier: "Kalos (LC)"},
+	charmander: {tier: "Kalos (NFE)"},
 	charmeleon: {tier: "Kalos (NFE)"},
 	charizard: {tier: "Kalos"},
-	charizardmegax: {tier: "Kalos OU"},
-	charizardmegay: {tier: "Kalos OU"},
+	charizardmegax: {tier: "Kalos"},
+	charizardmegay: {tier: "Kalos"},
 
-	squirtle: {tier: "Kalos (LC)"},
+	squirtle: {tier: "Kalos (NFE)"},
 	wartortle: {tier: "Kalos (NFE)"},
 	blastoise: {tier: "Kalos"},
 	blastoisemega: {tier: "Kalos"},
 
-	skiddo: {tier: "Kalos (LC)"},
+	skiddo: {tier: "Kalos (NFE)"},
 	gogoat: {tier: "Kalos"},
 
-	pancham: {tier: "Kalos (LC)"},
+	pancham: {tier: "Kalos (NFE)"},
 	pangoro: {tier: "Kalos"},
 
 	furfrou: {tier: "Kalos"},
 
-	doduo: {tier: "Kalos (LC)"},
+	doduo: {tier: "Kalos (NFE)"},
 	dodrio: {tier: "Kalos"},
 
 	plusle: {tier: "Kalos"},
 	minun: {tier: "Kalos"},
 
-	gulpin: {tier: "Kalos (LC)"},
+	gulpin: {tier: "Kalos (NFE)"},
 	swalot: {tier: "Kalos"},
 
-	scraggy: {tier: "Kalos (LC)"},
+	scraggy: {tier: "Kalos (NFE)"},
 	scrafty: {tier: "Kalos"},
 
-	abra: {tier: "Kalos (LC)"},
+	abra: {tier: "Kalos (NFE)"},
 	kadabra: {tier: "Kalos (NFE)"},
 	alakazam: {tier: "Kalos"},
-	alakazammega: {tier: "Kalos OU"},
+	alakazammega: {tier: "Kalos"},
 
-	oddish: {tier: "Kalos (LC)"},
+	oddish: {tier: "Kalos (NFE)"},
 	gloom: {tier: "Kalos (NFE)"},
 	vileplume: {tier: "Kalos"},
 	bellossom: {tier: "Kalos"},
 
-	sentret: {tier: "Kalos (LC)"},
+	sentret: {tier: "Kalos (NFE)"},
 	furret: {tier: "Kalos"},
 
-	nincada: {tier: "Kalos (LC)"},
+	nincada: {tier: "Kalos (NFE)"},
 	ninjask: {tier: "Kalos"},
 	shedinja: {tier: "Kalos"},
 
-	espurr: {tier: "Kalos (LC)"},
+	espurr: {tier: "Kalos (NFE)"},
 	meowstic: {tier: "Kalos"},
 	meowsticf: {tier: "Kalos"},
 
 	kecleon: {tier: "Kalos"},
 
-	honedge: {tier: "Kalos (LC)"},
+	honedge: {tier: "Kalos (NFE)"},
 	doublade: {tier: "Kalos (NFE)"},
-	aegislash: {tier: "Kalos OU"},
+	aegislash: {tier: "Kalos"},
 
-	venipede: {tier: "Kalos (LC)"},
+	venipede: {tier: "Kalos (NFE)"},
 	whirlipede: {tier: "Kalos (NFE)"},
 	scolipede: {tier: "Kalos"},
 
@@ -197,47 +195,46 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 
 	smeargle: {tier: "Kalos"},
 
-	croagunk: {tier: "Kalos (LC)"},
+	croagunk: {tier: "Kalos (NFE)"},
 	toxicroak: {tier: "Kalos"},
 
-	ducklett: {tier: "Kalos (LC)"},
+	ducklett: {tier: "Kalos (NFE)"},
 	swanna: {tier: "Kalos"},
 
-	spritzee: {tier: "Kalos (LC)"},
+	spritzee: {tier: "Kalos (NFE)"},
 	aromatisse: {tier: "Kalos"},
 
-	swirlix: {tier: "Kalos (LC)"},
+	swirlix: {tier: "Kalos (NFE)"},
 	slurpuff: {tier: "Kalos"},
 
 	volbeat: {tier: "Kalos"},
 	illumise: {tier: "Kalos"},
 
-	hoppip: {tier: "Kalos (LC)"},
+	hoppip: {tier: "Kalos (NFE)"},
 	skiploom: {tier: "Kalos (NFE)"},
 	jumpluff: {tier: "Kalos"},
 
-	munchlax: {tier: "Kalos (LC)"},
+	munchlax: {tier: "Kalos (NFE)"},
 	snorlax: {tier: "Kalos"},
-	snorlaxkalos: {tier: "Kalos OU"},
 
-	whismur: {tier: "Kalos (LC)"},
+	whismur: {tier: "Kalos (NFE)"},
 	loudred: {tier: "Kalos (NFE)"},
 	exploud: {tier: "Kalos"},
 
-	meditite: {tier: "Kalos (LC)"},
+	meditite: {tier: "Kalos (NFE)"},
 	medicham: {tier: "Kalos"},
-	medichammega: {tier: "Kalos OU"},
+	medichammega: {tier: "Kalos"},
 
-	zubat: {tier: "Kalos (LC)"},
+	zubat: {tier: "Kalos (NFE)"},
 	golbat: {tier: "Kalos (NFE)"},
 	crobat: {tier: "Kalos"},
 
-	axew: {tier: "Kalos (LC)"},
+	axew: {tier: "Kalos (NFE)"},
 	fraxure: {tier: "Kalos (NFE)"},
 	haxorus: {tier: "Kalos"},
 
 	diancie: {tier: "Kalos"},
-	dianciemega: {tier: "Kalos OU"},
+	dianciemega: {tier: "Kalos"},
 
 	hoopa: {tier: "Kalos"},
 	hoopaunbound: {tier: "Kalos Uber"},
@@ -246,134 +243,130 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 
 	// Coastal Kalos
 
-	drifloon: {tier: "Kalos (LC)"},
+	drifloon: {tier: "Kalos (NFE)"},
 	drifblim: {tier: "Kalos"},
 
-	mienfoo: {tier: "Kalos (LC)"},
+	mienfoo: {tier: "Kalos (NFE)"},
 	mienshao: {tier: "Kalos"},
 
 	zangoose: {tier: "Kalos"},
-	zangoosemega: {tier: "Kalos OU"},
 	seviper: {tier: "Kalos"},
-	sevipermega: {tier: "Kalos"},
 
-	spoink: {tier: "Kalos (LC)"},
+	spoink: {tier: "Kalos (NFE)"},
 	grumpig: {tier: "Kalos"},
 
 	absol: {tier: "Kalos"},
 	absolmega: {tier: "Kalos"},
 
-	inkay: {tier: "Kalos (LC)"},
+	inkay: {tier: "Kalos (NFE)"},
 	malamar: {tier: "Kalos"},
 
 	lunatone: {tier: "Kalos"},
-	lunatonemega: {tier: "Kalos"},
 	solrock: {tier: "Kalos"},
-	solrockmega: {tier: "Kalos"},
 
-	bagon: {tier: "Kalos (LC)"},
+	bagon: {tier: "Kalos (NFE)"},
 	shelgon: {tier: "Kalos (NFE)"},
 	salamence: {tier: "Kalos"},
 	salamencemega: {tier: "Kalos Uber"},
 
-	wingull: {tier: "Kalos (LC)"},
+	wingull: {tier: "Kalos (NFE)"},
 	pelipper: {tier: "Kalos"},
 
-	taillow: {tier: "Kalos (LC)"},
+	taillow: {tier: "Kalos (NFE)"},
 	swellow: {tier: "Kalos"},
 
-	binacle: {tier: "Kalos (LC)"},
+	binacle: {tier: "Kalos (NFE)"},
 	barbaracle: {tier: "Kalos"},
 
-	dwebble: {tier: "Kalos (LC)"},
+	dwebble: {tier: "Kalos (NFE)"},
 	crustle: {tier: "Kalos"},
 
-	tentacool: {tier: "Kalos (LC)"},
+	tentacool: {tier: "Kalos (NFE)"},
 	tentacruel: {tier: "Kalos"},
 
-	wailmer: {tier: "Kalos (LC)"},
+	wailmer: {tier: "Kalos (NFE)"},
 	wailord: {tier: "Kalos"},
 
 	luvdisc: {tier: "Kalos"},
 
-	skrelp: {tier: "Kalos (LC)"},
+	skrelp: {tier: "Kalos (NFE)"},
 	dragalge: {tier: "Kalos"},
 
-	clauncher: {tier: "Kalos (LC)"},
+	clauncher: {tier: "Kalos (NFE)"},
 	clawitzer: {tier: "Kalos"},
 
-	staryu: {tier: "Kalos (LC)"},
+	staryu: {tier: "Kalos (NFE)"},
 	starmie: {tier: "Kalos"},
 
-	shellder: {tier: "Kalos (LC)"},
+	shellder: {tier: "Kalos (NFE)"},
 	cloyster: {tier: "Kalos"},
 
 	qwilfish: {tier: "Kalos"},
 
-	horsea: {tier: "Kalos (LC)"},
+	horsea: {tier: "Kalos (NFE)"},
 	seadra: {tier: "Kalos (NFE)"},
 	kingdra: {tier: "Kalos"},
 
 	relicanth: {tier: "Kalos"},
 
-	sandile: {tier: "Kalos (LC)"},
+	sandile: {tier: "Kalos (NFE)"},
 	krokorok: {tier: "Kalos (NFE)"},
 	krookodile: {tier: "Kalos"},
 
-	helioptile: {tier: "Kalos (LC)"},
+	helioptile: {tier: "Kalos (NFE)"},
 	heliolisk: {tier: "Kalos"},
 
-	hippopotas: {tier: "Kalos (LC)"},
+	hippopotas: {tier: "Kalos (NFE)"},
 	hippowdon: {tier: "Kalos"},
 
-	rhyhorn: {tier: "Kalos (LC)"},
+	rhyhorn: {tier: "Kalos (NFE)"},
 	rhydon: {tier: "Kalos (NFE)"},
 	rhyperior: {tier: "Kalos"},
 
-	onix: {tier: "Kalos (LC)"},
+	onix: {tier: "Kalos (NFE)"},
 	steelix: {tier: "Kalos"},
 	steelixmega: {tier: "Kalos"},
 
-	woobat: {tier: "Kalos (LC)"},
+	woobat: {tier: "Kalos (NFE)"},
 	swoobat: {tier: "Kalos"},
 
-	machop: {tier: "Kalos (LC)"},
+	machop: {tier: "Kalos (NFE)"},
 	machoke: {tier: "Kalos (NFE)"},
 	machamp: {tier: "Kalos"},
 
-	cubone: {tier: "Kalos (LC)"},
+	cubone: {tier: "Kalos (NFE)"},
 	marowak: {tier: "Kalos"},
 
 	kangaskhan: {tier: "Kalos"},
-	kangaskhanmega: {tier: "Kalos OU"},
+	kangaskhanmega: {tier: "Kalos Uber"},
 
 	mawile: {tier: "Kalos"},
 	mawilemega: {tier: "Kalos Uber"},
 
-	tyrunt: {tier: "Kalos (LC)"},
+	tyrunt: {tier: "Kalos (NFE)"},
 	tyrantrum: {tier: "Kalos"},
 
-	amaura: {tier: "Kalos (LC)"},
+	amaura: {tier: "Kalos (NFE)"},
 	aurorus: {tier: "Kalos"},
 
 	aerodactyl: {tier: "Kalos"},
 	aerodactylmega: {tier: "Kalos"},
 
-	ferroseed: {tier: "Kalos (LC)"},
-	ferrothorn: {tier: "Kalos OU"},
+	ferroseed: {tier: "Kalos (NFE)"},
+	ferrothorn: {tier: "Kalos"},
 
-	snubbull: {tier: "Kalos (LC)"},
+	snubbull: {tier: "Kalos (NFE)"},
 	granbull: {tier: "Kalos"},
 
-	electrike: {tier: "Kalos (LC)"},
+	electrike: {tier: "Kalos (NFE)"},
 	manectric: {tier: "Kalos"},
 	manectricmega: {tier: "Kalos"},
 
-	houndour: {tier: "Kalos (LC)"},
+	houndour: {tier: "Kalos (NFE)"},
 	houndoom: {tier: "Kalos"},
 	houndoommega: {tier: "Kalos"},
 
-	eevee: {tier: "Kalos (LC)"},
+	eevee: {tier: "Kalos (NFE)"},
 	vaporeon: {tier: "Kalos"},
 	jolteon: {tier: "Kalos"},
 	flareon: {tier: "Kalos"},
@@ -381,217 +374,212 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	umbreon: {tier: "Kalos"},
 	leafeon: {tier: "Kalos"},
 	glaceon: {tier: "Kalos"},
-	sylveon: {tier: "Kalos OU"},
+	sylveon: {tier: "Kalos"},
 
 	emolga: {tier: "Kalos"},
 
-	yanma: {tier: "Kalos (LC)"},
+	yanma: {tier: "Kalos (NFE)"},
 	yanmega: {tier: "Kalos"},
 
 	hawlucha: {tier: "Kalos"},
 
 	sigilyph: {tier: "Kalos"},
 
-	golett: {tier: "Kalos (LC)"},
+	golett: {tier: "Kalos (NFE)"},
 	golurk: {tier: "Kalos"},
 
-	nosepass: {tier: "Kalos (LC)"},
+	nosepass: {tier: "Kalos (NFE)"},
 	probopass: {tier: "Kalos"},
 
-	makuhita: {tier: "Kalos (LC)"},
+	makuhita: {tier: "Kalos (NFE)"},
 	hariyama: {tier: "Kalos"},
 
 	throh: {tier: "Kalos"},
 	sawk: {tier: "Kalos"},
 
-	starly: {tier: "Kalos (LC)"},
+	starly: {tier: "Kalos (NFE)"},
 	staravia: {tier: "Kalos (NFE)"},
 	staraptor: {tier: "Kalos"},
 
-	stunky: {tier: "Kalos (LC)"},
+	stunky: {tier: "Kalos (NFE)"},
 	skuntank: {tier: "Kalos"},
 
-	nidoranf: {tier: "Kalos (LC)"},
+	nidoranf: {tier: "Kalos (NFE)"},
 	nidorina: {tier: "Kalos (NFE)"},
 	nidoqueen: {tier: "Kalos"},
 
-	nidoranm: {tier: "Kalos (LC)"},
+	nidoranm: {tier: "Kalos (NFE)"},
 	nidorino: {tier: "Kalos (NFE)"},
-	nidoking: {tier: "Kalos OU"},
+	nidoking: {tier: "Kalos"},
 
 	dedenne: {tier: "Kalos"},
 
-	chingling: {tier: "Kalos (LC)"},
+	chingling: {tier: "Kalos (NFE)"},
 	chimecho: {tier: "Kalos"},
 
-	mimejr: {tier: "Kalos (LC)"},
+	mimejr: {tier: "Kalos (NFE)"},
 	mrmime: {tier: "Kalos"},
 
-	solosis: {tier: "Kalos (LC)"},
+	solosis: {tier: "Kalos (NFE)"},
 	duosion: {tier: "Kalos (NFE)"},
 	reuniclus: {tier: "Kalos"},
 
-	wynaut: {tier: "Kalos (LC)"},
+	wynaut: {tier: "Kalos (NFE)"},
 	wobbuffet: {tier: "Kalos"},
 
-	roggenrola: {tier: "Kalos (LC)"},
+	roggenrola: {tier: "Kalos (NFE)"},
 	boldore: {tier: "Kalos (NFE)"},
 	gigalith: {tier: "Kalos"},
 
 	sableye: {tier: "Kalos"},
-	sableyemega: {tier: "Kalos OU"},
 
 	carbink: {tier: "Kalos"},
 
 	tauros: {tier: "Kalos"},
 	miltank: {tier: "Kalos"},
 
-	mareep: {tier: "Kalos (LC)"},
+	mareep: {tier: "Kalos (NFE)"},
 	flaaffy: {tier: "Kalos (NFE)"},
 	ampharos: {tier: "Kalos"},
 	ampharosmega: {tier: "Kalos"},
 
 	pinsir: {tier: "Kalos"},
-	pinsirmega: {tier: "Kalos OU"},
+	pinsirmega: {tier: "Kalos"},
 
 	heracross: {tier: "Kalos"},
-	heracrossmega: {tier: "Kalos OU"},
+	heracrossmega: {tier: "Kalos"},
 
 	pachirisu: {tier: "Kalos"},
 
-	slowpoke: {tier: "Kalos (LC)"},
-	slowbro: {tier: "Kalos OU"},
-	slowbromega: {tier: "Kalos OU"},
-	slowking: {tier: "Kalos OU"},
+	slowpoke: {tier: "Kalos (NFE)"},
+	slowbro: {tier: "Kalos"},
+	slowbromega: {tier: "Kalos"},
+	slowking: {tier: "Kalos"},
 
-	exeggcute: {tier: "Kalos (LC)"},
+	exeggcute: {tier: "Kalos (NFE)"},
 	exeggutor: {tier: "Kalos"},
 
 	chatot: {tier: "Kalos"},
 
-	mantyke: {tier: "Kalos (LC)"},
+	mantyke: {tier: "Kalos (NFE)"},
 	mantine: {tier: "Kalos"},
 
-	clamperl: {tier: "Kalos (LC)"},
+	clamperl: {tier: "Kalos (NFE)"},
 	huntail: {tier: "Kalos"},
 	gorebyss: {tier: "Kalos"},
 
-	remoraid: {tier: "Kalos (LC)"},
+	remoraid: {tier: "Kalos (NFE)"},
 	octillery: {tier: "Kalos"},
 
 	corsola: {tier: "Kalos"},
 
-	chinchou: {tier: "Kalos (LC)"},
+	chinchou: {tier: "Kalos (NFE)"},
 	lanturn: {tier: "Kalos"},
 
 	alomomola: {tier: "Kalos"},
 
 	lapras: {tier: "Kalos"},
-	laprasmega: {tier: "Kalos OU"},
 
 	articuno: {tier: "Kalos"},
-	zapdos: {tier: "Kalos OU"},
+	zapdos: {tier: "Kalos"},
 	moltres: {tier: "Kalos"},
 
 	// Mountain Kalos
 
-	diglett: {tier: "Kalos (LC)"},
+	diglett: {tier: "Kalos (NFE)"},
 	dugtrio: {tier: "Kalos"},
 
-	trapinch: {tier: "Kalos (LC)"},
+	trapinch: {tier: "Kalos (NFE)"},
 	vibrava: {tier: "Kalos (NFE)"},
 	flygon: {tier: "Kalos"},
 
-	gible: {tier: "Kalos (LC)"},
+	gible: {tier: "Kalos (NFE)"},
 	gabite: {tier: "Kalos (NFE)"},
-	garchomp: {tier: "Kalos OU"},
-	garchompmega: {tier: "Kalos OU"},
+	garchomp: {tier: "Kalos"},
+	garchompmega: {tier: "Kalos"},
 
-	geodude: {tier: "Kalos (LC)"},
+	geodude: {tier: "Kalos (NFE)"},
 	graveler: {tier: "Kalos (NFE)"},
 	golem: {tier: "Kalos"},
 
-	slugma: {tier: "Kalos (LC)"},
-	magcargo: {tier: "Kalos (NFE)"},
-	snaisland: {tier: "Kalos OU"},
+	slugma: {tier: "Kalos (NFE)"},
+	magcargo: {tier: "Kalos"},
 
 	shuckle: {tier: "Kalos"},
 
-	skorupi: {tier: "Kalos (LC)"},
+	skorupi: {tier: "Kalos (NFE)"},
 	drapion: {tier: "Kalos"},
 
-	wooper: {tier: "Kalos (LC)"},
+	wooper: {tier: "Kalos (NFE)"},
 	quagsire: {tier: "Kalos"},
 
-	goomy: {tier: "Kalos (LC)"},
+	goomy: {tier: "Kalos (NFE)"},
 	sliggoo: {tier: "Kalos (NFE)"},
 	goodra: {tier: "Kalos"},
 
-	karrablast: {tier: "Kalos (LC)"},
+	karrablast: {tier: "Kalos (NFE)"},
 	escavalier: {tier: "Kalos"},
 
-	shelmet: {tier: "Kalos (LC)"},
+	shelmet: {tier: "Kalos (NFE)"},
 	accelgor: {tier: "Kalos"},
 
-	bellsprout: {tier: "Kalos (LC)"},
+	bellsprout: {tier: "Kalos (NFE)"},
 	weepinbell: {tier: "Kalos (NFE)"},
 	victreebel: {tier: "Kalos"},
 
 	carnivine: {tier: "Kalos"},
 
-	gastly: {tier: "Kalos (LC)"},
+	gastly: {tier: "Kalos (NFE)"},
 	haunter: {tier: "Kalos (NFE)"},
-	gengar: {tier: "Kalos OU"},
+	gengar: {tier: "Kalos"},
 	gengarmega: {tier: "Kalos Uber"},
 
-	poliwag: {tier: "Kalos (LC)"},
+	poliwag: {tier: "Kalos (NFE)"},
 	poliwhirl: {tier: "Kalos (NFE)"},
 	poliwrath: {tier: "Kalos"},
 	politoed: {tier: "Kalos"},
 
-	ekans: {tier: "Kalos (LC)"},
+	ekans: {tier: "Kalos (NFE)"},
 	arbok: {tier: "Kalos"},
 
 	stunfisk: {tier: "Kalos"},
 
-	barboach: {tier: "Kalos (LC)"},
+	barboach: {tier: "Kalos (NFE)"},
 	whiscash: {tier: "Kalos"},
 
-	purrloin: {tier: "Kalos (LC)"},
+	purrloin: {tier: "Kalos (NFE)"},
 	liepard: {tier: "Kalos"},
 
-	poochyena: {tier: "Kalos (LC)"},
+	poochyena: {tier: "Kalos (NFE)"},
 	mightyena: {tier: "Kalos"},
 
-	patrat: {tier: "Kalos (LC)"},
+	patrat: {tier: "Kalos (NFE)"},
 	watchog: {tier: "Kalos"},
 
-	pawniard: {tier: "Kalos (LC)"},
-	bisharp: {tier: "Kalos OU"},
+	pawniard: {tier: "Kalos (NFE)"},
+	bisharp: {tier: "Kalos"},
 
 	klefki: {tier: "Kalos"},
 
-	murkrow: {tier: "Kalos (LC)"},
+	murkrow: {tier: "Kalos (NFE)"},
 	honchkrow: {tier: "Kalos"},
 
-	foongus: {tier: "Kalos (LC)"},
-	amoonguss: {tier: "Kalos OU"},
+	foongus: {tier: "Kalos (NFE)"},
+	amoonguss: {tier: "Kalos"},
 
-	lotad: {tier: "Kalos (LC)"},
+	lotad: {tier: "Kalos (NFE)"},
 	lombre: {tier: "Kalos (NFE)"},
 	ludicolo: {tier: "Kalos"},
 
-	buizel: {tier: "Kalos (LC)"},
+	buizel: {tier: "Kalos (NFE)"},
 	floatzel: {tier: "Kalos"},
-	floatzelmega: {tier: "Kalos"},
 
 	basculin: {tier: "Kalos"},
-	basculinbluestriped: {tier: "Kalos"},
 
-	phantump: {tier: "Kalos (LC)"},
+	phantump: {tier: "Kalos (NFE)"},
 	trevenant: {tier: "Kalos"},
 
-	pumpkaboo: {tier: "Kalos (LC)"},
+	pumpkaboo: {tier: "Kalos (NFE)"},
 	pumpkaboosmall: {tier: "Kalos (NFE)"},
 	pumpkaboolarge: {tier: "Kalos (NFE)"},
 	pumpkaboosuper: {tier: "Kalos (NFE)"},
@@ -600,194 +588,148 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gourgeistlarge: {tier: "Kalos"},
 	gourgeistsuper: {tier: "Kalos"},
 
-	litwick: {tier: "Kalos (LC)"},
+	litwick: {tier: "Kalos (NFE)"},
 	lampent: {tier: "Kalos (NFE)"},
 	chandelure: {tier: "Kalos"},
 
 	rotom: {tier: "Kalos"},
 	rotomheat: {tier: "Kalos"},
-	rotomwash: {tier: "Kalos OU"},
+	rotomwash: {tier: "Kalos"},
 	rotommow: {tier: "Kalos"},
 	rotomfrost: {tier: "Kalos"},
 	rotomfan: {tier: "Kalos"},
 
-	magnemite: {tier: "Kalos (LC)"},
+	magnemite: {tier: "Kalos (NFE)"},
 	magneton: {tier: "Kalos (NFE)"},
-	magnezone: {tier: "Kalos OU"},
+	magnezone: {tier: "Kalos"},
 
-	voltorb: {tier: "Kalos (LC)"},
+	voltorb: {tier: "Kalos (NFE)"},
 	electrode: {tier: "Kalos"},
 
-	trubbish: {tier: "Kalos (LC)"},
+	trubbish: {tier: "Kalos (NFE)"},
 	garbodor: {tier: "Kalos"},
 
-	swinub: {tier: "Kalos (LC)"},
+	swinub: {tier: "Kalos (NFE)"},
 	piloswine: {tier: "Kalos (NFE)"},
 	mamoswine: {tier: "Kalos"},
 
-	bergmite: {tier: "Kalos (LC)"},
+	bergmite: {tier: "Kalos (NFE)"},
 	avalugg: {tier: "Kalos"},
 
-	cubchoo: {tier: "Kalos (LC)"},
+	cubchoo: {tier: "Kalos (NFE)"},
 	beartic: {tier: "Kalos"},
 
-	smoochum: {tier: "Kalos (LC)"},
+	smoochum: {tier: "Kalos (NFE)"},
 	jynx: {tier: "Kalos"},
 
-	vanillite: {tier: "Kalos (LC)"},
+	vanillite: {tier: "Kalos (NFE)"},
 	vanillish: {tier: "Kalos (NFE)"},
 	vanilluxe: {tier: "Kalos"},
 
-	vanillitekalos: {tier: "Kalos (LC)"},
-	vanillishkalos: {tier: "Kalos (NFE)"},
-	vanilluxekalos: {tier: "Kalos OU"},
-
-	snover: {tier: "Kalos (LC)"},
+	snover: {tier: "Kalos (NFE)"},
 	abomasnow: {tier: "Kalos"},
 	abomasnowmega: {tier: "Kalos"},
 
 	delibird: {tier: "Kalos"},
 
-	sneasel: {tier: "Kalos (LC)"},
-	weavile: {tier: "Kalos OU"},
+	sneasel: {tier: "Kalos (NFE)"},
+	weavile: {tier: "Kalos"}, // most likely Uber soon
 
-	timburr: {tier: "Kalos (LC)"},
+	timburr: {tier: "Kalos (NFE)"},
 	gurdurr: {tier: "Kalos (NFE)"},
 	conkeldurr: {tier: "Kalos"},
 
 	torkoal: {tier: "Kalos"},
 
-	sandshrew: {tier: "Kalos (LC)"},
+	sandshrew: {tier: "Kalos (NFE)"},
 	sandslash: {tier: "Kalos"},
 
-	aron: {tier: "Kalos (LC)"},
+	aron: {tier: "Kalos (NFE)"},
 	lairon: {tier: "Kalos (NFE)"},
 	aggron: {tier: "Kalos"},
 	aggronmega: {tier: "Kalos"},
 
-	larvitar: {tier: "Kalos (LC)"},
+	larvitar: {tier: "Kalos (NFE)"},
 	pupitar: {tier: "Kalos (NFE)"},
-	tyranitar: {tier: "Kalos OU"},
-	tyranitarmega: {tier: "Kalos OU"},
+	tyranitar: {tier: "Kalos"},
+	tyranitarmega: {tier: "Kalos"},
 
 	heatmor: {tier: "Kalos"},
 	durant: {tier: "Kalos"},
 
-	spinarak: {tier: "Kalos (LC)"},
+	spinarak: {tier: "Kalos (NFE)"},
 	ariados: {tier: "Kalos"},
 
-	spearow: {tier: "Kalos (LC)"},
+	spearow: {tier: "Kalos (NFE)"},
 	fearow: {tier: "Kalos"},
-	spearowkalos: {tier: "Kalos (LC)"},
-	fearowkalos: {tier: "Kalos (NFE)"},
-	monrow: {tier: "Kalos"},
 
 	cryogonal: {tier: "Kalos"},
-	cryogonalmega: {tier: "Kalos OU"},
 
-	skarmory: {tier: "Kalos OU"},
+	skarmory: {tier: "Kalos"},
 
-	noibat: {tier: "Kalos (LC)"},
+	noibat: {tier: "Kalos (NFE)"},
 	noivern: {tier: "Kalos"},
 
-	gligar: {tier: "Kalos (LC)"},
-	gliscor: {tier: "Kalos OU"},
+	gligar: {tier: "Kalos (NFE)"},
+	gliscor: {tier: "Kalos"},
 
-	hoothoot: {tier: "Kalos (LC)"},
+	hoothoot: {tier: "Kalos (NFE)"},
 	noctowl: {tier: "Kalos"},
 
-	igglybuff: {tier: "Kalos (LC)"},
+	igglybuff: {tier: "Kalos (NFE)"},
 	jigglypuff: {tier: "Kalos (NFE)"},
 	wigglytuff: {tier: "Kalos"},
-	wigglytuffmega: {tier: "Kalos OU"},
 
-	shuppet: {tier: "Kalos (LC)"},
+	shuppet: {tier: "Kalos (NFE)"},
 	banette: {tier: "Kalos"},
 	banettemega: {tier: "Kalos"},
 
-	zorua: {tier: "Kalos (LC)"},
+	zorua: {tier: "Kalos (NFE)"},
 	zoroark: {tier: "Kalos"},
 
-	gothita: {tier: "Kalos (LC)"},
+	gothita: {tier: "Kalos (NFE)"},
 	gothorita: {tier: "Kalos (NFE)"},
 	gothitelle: {tier: "Kalos"},
 
-	bonsly: {tier: "Kalos (LC)"},
+	bonsly: {tier: "Kalos (NFE)"},
 	sudowoodo: {tier: "Kalos"},
 
 	spinda: {tier: "Kalos"},
 
-	teddiursa: {tier: "Kalos (LC)"},
-	ursaring: {tier: "Kalos"}, 
+	teddiursa: {tier: "Kalos (NFE)"},
+	ursaring: {tier: "Kalos"}, // well... you *are* NFE but--
 
-	lickitung: {tier: "Kalos (LC)"},
+	lickitung: {tier: "Kalos (NFE)"},
 	lickilicky: {tier: "Kalos"},
 
-	scyther: {tier: "Kalos (LC)"},
-	scizor: {tier: "Kalos OU"},
-	scizormega: {tier: "Kalos OU"},
+	scyther: {tier: "Kalos (NFE)"},
+	scizor: {tier: "Kalos"},
 
 	ditto: {tier: "Kalos"},
 
-	swablu: {tier: "Kalos (LC)"},
+	swablu: {tier: "Kalos (NFE)"},
 	altaria: {tier: "Kalos"},
-	altariamega: {tier: "Kalos OU"},
+	altariamega: {tier: "Kalos"},
 
 	druddigon: {tier: "Kalos"},
 
-	deino: {tier: "Kalos (LC)"},
+	deino: {tier: "Kalos (NFE)"},
 	zweilous: {tier: "Kalos (NFE)"},
-	hydreigon: {tier: "Kalos OU"},
+	hydreigon: {tier: "Kalos"},
 
-	dratini: {tier: "Kalos (LC)"},
+	dratini: {tier: "Kalos (NFE)"},
 	dragonair: {tier: "Kalos (NFE)"},
-	dragonite: {tier: "Kalos OU"},
+	dragonite: {tier: "Kalos"},
 
-	xerneas: {tier: "Kalos Uber"},
-	yveltal: {tier: "Kalos Uber"},
-	zygarde: {tier: "Kalos OU"},
+	xerneas: {tier: "Uber"},
+	xerneasneutral: {tier: "Uber"},
+	yveltal: {tier: "Uber"},
+	zygarde: {tier: "Uber"},
+	zygarde10: {tier: "Uber"},
+	zygardecomplete: {tier: "Uber"},
 
-	mewtwo: {tier: "Kalos Uber"},
-	mewtwomegax: {tier: "Kalos Uber"},
-	mewtwomegay: {tier: "Kalos Uber"},
+	mewtwo: {tier: "Uber"},
+	mewtwomegax: {tier: "Uber"},
+	mewtwomegay: {tier: "Uber"},
 
-	// event
-
-	torchic: {tier: "Kalos (LC)"},
-	combusken: {tier: "Kalos (NFE)"},
-	blaziken: {tier: "Kalos OU"},
-	blazikenmega: {tier: "Kalos OU"},
-
-	// DLC
-
-	// Slate 1
-	regirockkalos: {tier: "Kalos"},
-	regicekalos: {tier: "Kalos"},
-	registeelkalos: {tier: "Kalos OU"},
-	regigigas: {tier: "Kalos"},
-	regigigasmega: {tier: "Kalos OU"},
-
-	glimmetkalos: {tier: "Kalos (LC)"},
-	glimmorakalos: {tier: "Kalos (NFE)"},
-	glimmaltis: {tier: "Kalos OU"},
-
-	// Slate 4
-	glamine: {tier: "Kalos (LC)"},
-	ertimenor: {tier: "Kalos"},
-	hugfish: {tier: "Kalos OU"},
-	malich: {tier: "Kalos OU"},
-	automent: {tier: "Kalos OU"},
-
-	// Slate 6
-	duskull: {tier: "Kalos (LC)"},
-	dusclops: {tier: "Kalos (NFE)"},
-	dusknoir: {tier: "Kalos"},
-
-	klink: {tier: "Kalos (LC)"},
-	klang: {tier: "Kalos (NFE)"},
-	klinklang: {tier: "Kalos"},
-	
-	shinx: {tier: "Kalos (LC)"},
-	luxio: {tier: "Kalos (NFE)"},
-	luxray: {tier: "Kalos"},
 };

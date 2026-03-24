@@ -427,10 +427,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		gen: 4,
 	},
-	poisonpuppeteer: {
-		inherit: true,
-		gen: 4,
-	},
 	poisontouch: {
 		inherit: true,
 		gen: 4,
@@ -640,18 +636,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		gen: 4,
 	},
 	telepathy: {
-		inherit: true,
-		gen: 4,
-	},
-	terashift: {
-		inherit: true,
-		gen: 4,
-	},
-	terashell: {
-		inherit: true,
-		gen: 4,
-	},
-	teraformzero: {
 		inherit: true,
 		gen: 4,
 	},

@@ -735,52 +735,52 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	starmie: {
 		inherit: true,
-		abilities: {0: "Gravitation", 1: "Natural Cure", H: "Analytic"},
+		abilities: {0: "Gravitas", 1: "Natural Cure", H: "Analytic"},
 	},
 	forretress: {
 		inherit: true,
-		abilities: {0: "Sturdy", 1: "Gravitation", H: "Overcoat"},
+		abilities: {0: "Sturdy", 1: "Gravitas", H: "Overcoat"},
 	},
 	steelixmega: {
 		inherit: true,
-		abilities: {0: "Gravitation"},
+		abilities: {0: "Gravitas"},
 	},
 	baltoy: {
 		inherit: true,
-		abilities: {0: "Levitate", 1: "Gravitation", H: "Water Compaction"},
+		abilities: {0: "Levitate", 1: "Gravitas", H: "Water Compaction"},
 	},
 	claydol: {
 		inherit: true,
-		abilities: {0: "Levitate", 1: "Gravitation", H: "Water Compaction"},
+		abilities: {0: "Levitate", 1: "Gravitas", H: "Water Compaction"},
 	},
 	torterra: {
 		inherit: true,
-		abilities: {0: "Overgrow", H: "Gravitation"},
+		abilities: {0: "Overgrow", H: "Gravitas"},
 	},
 	cresselia: {
 		inherit: true,
 		types: ["Psychic", "Fairy"],
-		abilities: {0: "Levitate", 1: "Cloud Nine", H: "Gravitation"},
+		abilities: {0: "Levitate", 1: "Cloud Nine", H: "Gravitas"},
 	},
 	giratina: {
 		inherit: true,
-		abilities: {0: "Pressure", 1: "Gravitation", H: "Telepathy"},
+		abilities: {0: "Pressure", 1: "Gravitas", H: "Telepathy"},
 	},
 	elgyem: {
 		inherit: true,
-		abilities: {0: "Gravitation", 1: "Synchronize", H: "Analytic"},
+		abilities: {0: "Gravitas", 1: "Synchronize", H: "Analytic"},
 	},
 	beheeyem: {
 		inherit: true,
-		abilities: {0: "Gravitation", 1: "Synchronize", H: "Analytic"},
+		abilities: {0: "Gravitas", 1: "Synchronize", H: "Analytic"},
 	},
 	orbeetle: {
 		inherit: true,
-		abilities: {0: "Swarm", 1: "Frisk", H: "Gravitation"},
+		abilities: {0: "Swarm", 1: "Frisk", H: "Gravitas"},
 	},
 	stonjourner: {
 		inherit: true,
-		abilities: {0: "Power Spot", H: "Gravitation"},
+		abilities: {0: "Power Spot", H: "Gravitas"},
 	},
 	rhyhorn: {
 		inherit: true,

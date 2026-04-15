@@ -1150,6 +1150,18 @@ export const Conditions: {[id: IDEntry]: ModdedConditionData & {innateName?: str
 			this.add(`c:|${getName('Isaiah')}|Bruh, nice cteam`);
 		},
 	},
+	julianproblox: {
+		noCopy: true,
+		onStart() {
+			this.add(`c:|${getName('Julian P Roblox')}|mreow`);
+		},
+		onSwitchOut() {
+			this.add(`c:|${getName('Julian P Roblox')}|merp mrreep`);
+		},
+		onFaint() {
+			this.add(`c:|${getName('Julian P Roblox')}|Unfortunate doesn't even begin to describe my series.`);
+		},
+	},
 	j0rdy004: {
 		noCopy: true,
 		onStart(pokemon) {
@@ -2270,6 +2282,18 @@ export const Conditions: {[id: IDEntry]: ModdedConditionData & {innateName?: str
 			this.add(`c:|${getName('Sificon~')}|oop`);
 		},
 	},
+	skaftalele : {
+		noCopy: true,
+		onStart() {
+			this.add(`c:|${getName('Skaftalele')}|`);
+		},
+		onSwitchOut() {
+			this.add(`c:|${getName('Skaftalele')}|`);
+		},
+		onFaint() {
+			this.add(`c:|${getName('Skaftalele')}|`);
+		},
+	}
 	skies: {
 		noCopy: true,
 		onStart() {

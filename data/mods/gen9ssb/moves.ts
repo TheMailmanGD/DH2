@@ -2183,6 +2183,24 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		type: "???",
 	},
 
+	//Skaftalele
+	iceshank: {
+		accuracy: 100,
+		basePower: 35,
+		category: "Physical",
+		shortDesc: "iceslop"
+		desc: "Ancient technique that hits many times."
+		name: "Ice Shank"
+		gen: 9,
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		multihit: [4, 8],
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+	}
+
 	// Ganjafin
 	wigglingstrike: {
 		accuracy: 95,
@@ -2736,6 +2754,41 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		secondary: null,
 		target: "allAdjacent",
 		type: "Psychic",
+	},
+
+	// Julian P. Roblox
+	furyousswipes: {
+		// I love gambling
+		accuracy: 78,
+		basePower: 50,
+		category: "Physical",
+		name: "Fury(ous) Swipes",
+		shortDesc: "misery dungeon",
+		desc: "meta",
+		pp: 19,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		multihit: [2, 5],
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+			onHit(target, source, move) {
+				if (target.boosts.spe === 1)
+					secondary.chance *= 2
+				if (target.boosts.spe === 2)
+					secondary.chance *= 3
+				if (target.boosts.spe === 3)
+					secondary.chance *= 4
+				if (target.boosts.spe === 4)
+					secondary.chance *= 5
+				if (target.boosts.spe === 5)
+					secondary.chance *= 6
+				if (target.boosts.spe === 6)
+					secondary.chance *= 7
+			}
+		},
+		target: "normal",
+		type: "normal",
 	},
 
 	// J0rdy004

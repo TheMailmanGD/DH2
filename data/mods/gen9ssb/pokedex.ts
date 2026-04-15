@@ -1,5 +1,3 @@
-import { Abilities } from '../chaos/abilities';
-
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
 	/*
 	// Example
@@ -457,13 +455,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: {0: "Psychic Surge"},
 	},
 
-	// Julian P. Roblox
-	skitty: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 140, def: 70, spa: 1, spd: 80, spe: 137},
-		abilities: {0: "Scrappy"},
-	},
-
 	// J0rdy004
 	vulpixalola: {
 		inherit: true,
@@ -883,12 +874,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: {hp: 75, atk: 55, def: 70, spa: 55, spd: 95, spe: 110},
 		abilities: {0: "Perfectly Imperfect"},
 	},
-
-	//Skaftalele
-	weavile: {
-		inherit: true,
-		abilities: {0: "No Ability"},
-	}
 
 	// skies
 	chespin: {

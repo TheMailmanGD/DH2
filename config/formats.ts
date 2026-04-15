@@ -240,38 +240,14 @@ import { Formats as WhiteTusk                   } from '../data/mods/whitetusk/f
 import { Formats as Woomod                      } from '../data/mods/woomod/formats';
 import { Formats as Worldbuilding               } from '../data/mods/worldbuilding/formats';
 //import { Formats as YayaMons                    } from '../data/mods/yayamons/formats';
-import { Formats as Chaos                       } from '../data/mods/chaos/formats';
-import { Formats as gen9SSB                     } from '../data/mods/gen9ssb/formats';
 
 export const Formats: FormatList = [
-	{
-		section: "Fangame Formats",
-		column: 1,
-	},
-	...Chaos,
-	{
-		section: "Gen 9 Singles",
-		column: 2,
-	},
-	{
-		section: "Gen 9 Doubles",
-		column: 2,
-	},
-	{
-		section: "Gen 9 Other Metagames",
-		column: 2,
-	},
-	{
-		section: "Gen 9 Randomised Metas",
-		column: 2,
-	},
-	...gen9SSB,
-	///////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////
 	///////////////////// Gen 9 Pet Mods //////////////////////////
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Gen 9 Pet Mods",
-		column: 3,
+		column: 1,
 	},
 	...AlternatiumEX,
 	...gen1Azure,
@@ -355,7 +331,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Gen 8 Pet Mods",
-		column: 3,
+		column: 1,
 	},
 	...Abilitypos,
 	...Alternatium,
@@ -377,7 +353,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Solomods",
-		column: 4,
+		column: 2,
 	},
 	...gen533Valuemons,
 	...AGoldenExperience,
@@ -468,7 +444,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Pet Mods Bonus Formats",
-		column: 5,
+		column: 3,
 	},
 	...BreedingVariants,
 	//...CrossoverChaos,
@@ -480,13 +456,13 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Monster Hunter Solomod",
-		column: 5,
+		column: 3,
 	},
 	...PokemonThrone,
 	...MonsterHunter,
 	{
 		section: "Modern Gen Series",
-		column: 5,
+		column: 3,
 	},
 	...ModernGen1,
 	...ModernGen2,
@@ -504,7 +480,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Unofficial Pet Mod Formats",
-		column: 5,
+		column: 3,
 	},
 	...gen8MaxMeter,
 	...FakemonKitchen,
@@ -516,7 +492,7 @@ export const Formats: FormatList = [
 	
 	{
 		section: "Sample Teams Random Battles",
-		column: 5,
+		column: 3,
 	},
 	...gen3OURandomSampleTeam,
 ];

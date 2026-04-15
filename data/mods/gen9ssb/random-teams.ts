@@ -403,12 +403,6 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Flat out falling',
 		evs: {atk: 252, spd: 4, spe: 252}, nature: 'Adamant', teraType: 'Any', shiny: true,
 	},
-	'Skaftalele' : {
-		species: 'Weavile', ability: 'No Ability', item: 'Leppa Berry', gender: 'F',
-		moves: ['Triple Axel', 'Knock Off', 'Low Kick'],
-		signatureMove: 'Ice Shank',
-		evs: {hp: 4, atk: 252, spe: 252}, nature: 'Jolly', teraType: 'Poison',
-	},
 	Ganjafin: {
 		species: 'Wiglett', ability: 'Gambling Addiction', item: 'Eviolite', gender: 'M',
 		moves: ['Wrap', 'Cosmic Power', 'Strength Sap'],
@@ -492,12 +486,6 @@ export const ssbSets: SSBSets = {
 		moves: ['Close Combat', 'Knock Off', 'Triple Axel'],
 		signatureMove: 'Simple Gameplan',
 		evs: {atk: 252, def: 4, spe: 252}, nature: 'Jolly', shiny: true,
-	},
-	'Julian P. Roblox': {
-		species: 'Skitty', ability: 'mreow mreep', item: 'Eviolite', gender: 'F',
-		moves: ['Agility', 'Swords Dance', 'Arm Thrust'],
-		signatureMove: 'Fury(ous) Swipes',
-		evs: {hp: 4, atk: 252, spe: 252}, nature: 'Jolly', teraType: 'Fighting',
 	},
 	'J0rdy004 ♫': {
 		species: 'Vulpix-Alola', ability: 'Fortifying Frost', item: 'Never-Melt Ice', gender: 'N',

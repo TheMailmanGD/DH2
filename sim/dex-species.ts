@@ -7,10 +7,7 @@ interface SpeciesAbility {
 	S?: string;
 }
 
-type SpeciesTag = "Mythical" | "Restricted Legendary" | "Sub-Legendary" | "Ultra Beast" | "Paradox" | "Lynian" | "Neopteron" | 
-"Temnoceran" | "Bird Wyvern" | "Flying Wyvern" | "Piscine Wyvern" | "Carapaceon" | "Amphibian" | "Fanged Beast" | 
-"Leviathan" | "Snake Wyvern" | "Brute Wyvern" | "Fanged Wyvern" | "Cephalopod" | "Construct" | "Unclassified" |	
-"Endemic"| "Demi-Elder" | "Elder Dragon";
+type SpeciesTag = "Mythical" | "Restricted Legendary" | "Sub-Legendary" | "Ultra Beast" | "Paradox";
 
 export interface SpeciesData extends Partial<Species> {
 	name: string;

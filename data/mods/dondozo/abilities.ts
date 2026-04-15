@@ -280,7 +280,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		},
 		onEnd(pokemon) {
 			const source = this.effectState.target;
-			if (!source) return;
 			for (const target of source.side.foe.active) {
 				target.removeVolatile('gastroacid');
 				target.removeVolatile('fishingseason');
@@ -357,11 +356,11 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			if (source.abilityState.battleBondTriggered) return;
 			if (source.species.id === 'grenigiri' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
 				this.add('-activate', source, 'ability: Fish Bond');
-				source.formeChange('Grenigiri-Dondozo', effect, true);
+				pokemon.formeChange('Grenigiri-Dondozo', effect, true);
 				const randAbil = this.random(3);
-				if (randAbil < 1) source.setAbility('unaware');
-				else if (randAbil < 2) source.setAbility('waterveil');
-				else source.setAbility('oblivious');
+				if (randAbil < 1) pokemon.setAbility('unaware');
+				else if (randAbil < 2) pokemon.setAbility('waterveil');
+				else pokemon.setAbility('oblivious');
 				this.boost({atk: 2, def: 2, spa: 2, spd: 2, spe: 2});
 				source.abilityState.battleBondTriggered = true;
 			}

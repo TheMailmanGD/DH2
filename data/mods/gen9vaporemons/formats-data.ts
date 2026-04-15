@@ -200,7 +200,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	zapdos: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	zapdosgalar: {
@@ -312,7 +312,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	sneasler: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	ursaring: {
@@ -352,7 +352,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	pelipper: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	gardevoir: {
@@ -444,7 +444,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	salamence: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	kyogre: {
@@ -504,7 +504,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	garchomp: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	lucario: {
@@ -624,7 +624,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	basculegion: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	basculegionf: {
@@ -680,7 +680,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	kingambit: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	braviary: {
@@ -696,7 +696,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	volcarona: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	tornadus: {
@@ -788,7 +788,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	goodrahisui: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	klefki: {
@@ -920,7 +920,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	rillaboom: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	cinderace: {
@@ -964,7 +964,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	barraskewda: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	toxtricity: {
@@ -1152,7 +1152,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	garganacl: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	armarouge: {
@@ -1160,7 +1160,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	ceruledge: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	bellibolt: {
@@ -1200,7 +1200,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	espathra: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	tinkaton: {
@@ -1332,7 +1332,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	roaringmoon: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	ironvaliant: {
@@ -1656,13 +1656,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	terapagos: {
-		tier: "UUBL",
+		tier: "UU",
 	},
 	hydrapple: {
 		tier: "UU",
 	},
 	ragingbolt: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	gougingfire: {
 		tier: "OU",
@@ -1677,7 +1677,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	pecharunt: {
-		tier: "UUBL",
+		tier: "OU",
 	},
 	venusaur: {
 		tier: "UU",
@@ -1808,7 +1808,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	blaziken: {
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	swampert: {
@@ -1868,7 +1868,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	deoxysspeed: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	rampardos: {
@@ -1972,7 +1972,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	primarina: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	toucannon: {

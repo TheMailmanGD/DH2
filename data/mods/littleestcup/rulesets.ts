@@ -2995,17 +2995,8 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
             }
         },
 		onSwitchIn(pokemon, source, effect) {
-			if (pokemon.m.dog && !pokemon.side.sideConditions['dynamaxused'] && !pokemon.item) {
+			if (pokemon.m.dog && !pokemon.side.sideConditions['dynamaxused']) {
 				pokemon.side.addSideCondition('bigdogtime');
-			}
-		},
-		onUpdate(pokemon) {
-			if (pokemon.m.dog && !pokemon.side.sideConditions['dynamaxused'] && !pokemon.item && !pokemon.side.getSideCondition('bigdogtime')) {
-				pokemon.side.addSideCondition('bigdogtime');
-			}
-			if (pokemon.m.dog && !pokemon.side.sideConditions['dynamaxused'] && pokemon.item && pokemon.side.getSideCondition('bigdogtime')) {
-				pokemon.side.removeSideCondition('bigdogtime');
-				pokemon.side.dynamaxUsed = true;
 			}
 		},
 		onSwitchOut(pokemon, source, effect) {

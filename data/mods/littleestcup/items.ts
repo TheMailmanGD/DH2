@@ -192,16 +192,14 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		onDamagingHit(damage, target, source, move) {
-			if (target.getMoveHitData(move).crit) {
-				this.add('-enditem', target, 'Air Balloon');
-				target.item = '';
-				target.itemState = {id: '', target};
-				this.runEvent('AfterUseItem', target, null, null, this.dex.items.get('airballoon'));
-			}
+			this.add('-enditem', target, 'Air Balloon');
+			target.item = '';
+			target.itemState = {id: '', target};
+			this.runEvent('AfterUseItem', target, null, null, this.dex.items.get('airballoon'));
 		},
 		onAfterSubDamage(damage, target, source, effect) {
 			this.debug('effect: ' + effect.id);
-			if (effect.effectType === 'Move' && target.getMoveHitData(move).crit) {
+			if (effect.effectType === 'Move') {
 				this.add('-enditem', target, 'Air Balloon');
 				target.item = '';
 				target.itemState = {id: '', target};
@@ -210,7 +208,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 541,
 		gen: 5,
-		shortDesc: "Holder is immune to Ground-type attacks. Pops when holder is crit.",
 	},
 	alakazite: {
 		name: "Alakazite",
@@ -1135,16 +1132,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
-		onSwitchIn(pokemon) {
-			this.actions.terastallize(pokemon);
-		},
 		onTakeItem(item, source) {
 			if (source.baseSpecies.baseSpecies === 'Ogerpon') return false;
 			return true;
 		},
 		forcedForme: "Ogerpon-Cornerstone",
 		itemUser: ["Ogerpon-Cornerstone"],
-		shortDesc: "Ogerpon-Cornerstone: 1.2x power attacks; Terastallizes to gain Embody Aspect.",
 		num: 2406,
 		gen: 9,
 	},

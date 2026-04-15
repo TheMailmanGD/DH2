@@ -12,12 +12,8 @@ export const Items: { [itemid: string]: ItemData } = {
 			}*/
 			return true;
 		},
-		/*onModifyMove(move) {
-			if (move.recoil) move.recoil = null;
-			if (move.hasCrashDamage) move.hasCrashDamage = false;
-		},*/
 		onDamage(damage, target, source, effect) {
-			if (effect.type !== 'Move' && ['highjumpkick','jumpkick','supercellslam', 'recoil'].includes(effect.id)) {
+			if (effect.id === 'recoil') {
 				if (!this.activeMove) throw new Error("Battle.activeMove is null");
 				if (this.activeMove.id !== 'struggle') return null;
 			}

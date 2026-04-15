@@ -129,7 +129,7 @@ export const Scripts: ModdedBattleScriptsData = {
 	pokemon: {
 		trySetStatus(status: string | Condition, source: Pokemon | null = null, sourceEffect: Effect | null = null) {
 			const setStatus = this.battle.dex.conditions.get(status);
-			if (setStatus.statusSlots > 1 && !['hvybrn', 'tox', 'shk', 'weakheavy', 'stp'].includes(status)) {
+			if (setStatus.statusSlots > 1 && !['hvybrn', 'shk', 'weakheavy', 'stp'].includes(status)) {
 				const statusOne = status.substring(0, 3);
 				const statusTwo = status.substring(3);
 				return this.setStatus(statusOne, source, sourceEffect) &&
@@ -213,7 +213,6 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (!this.hp) return false;
 			currentStatus = this.battle.dex.conditions.get(currentStatus);
 			newStatus = this.battle.dex.conditions.get(newStatus);
-			//console.log('currentstatus: ' + currentStatus.id + '\nnewStatus: ' + newStatus.id + '\nthis.status: ' + this.status);
 			if (this.battle.event) {
 				if (!source) source = this.battle.event.source;
 				if (!sourceEffect) sourceEffect = this.battle.effect;
@@ -229,11 +228,9 @@ export const Scripts: ModdedBattleScriptsData = {
 					this.battle.add('-fail', source);
 					this.battle.attrLastMove('[still]');
 					return false;
-				} else {
-					return false;
 				}
 			} else if (this.status) {
-				if (currentStatus.statusSlots === 1 && 
+				if(currentStatus.statusSlots === 1 && 
 				   newStatus.statusSlots === 1) {
 					newStatus = this.battle.dex.conditions.get(this.status + newStatus.id);
 					this.battle.add('-end', this, this.status, '[silent]');
@@ -241,8 +238,6 @@ export const Scripts: ModdedBattleScriptsData = {
 				} else if ((sourceEffect as Move)?.status) {
 					this.battle.add('-fail', source);
 					this.battle.attrLastMove('[still]');
-					return false;
-				} else {
 					return false;
 				}
 			}
@@ -309,7 +304,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (this.fainted) return false;
 
 			const negateImmunity = !this.battle.runEvent('NegateImmunity', this, type);
-			const notImmune = type === 'Earths' ?
+			const notImmune = type === 'Earth' ?
 				this.isGrounded(negateImmunity) :
 				negateImmunity || this.battle.dex.getImmunity(type, this);
 			if (notImmune) return true;
@@ -361,7 +356,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item === 'ironball') return true;
 			// If a Fire/Flying type uses Burn Up and Roost, it becomes ???/Flying-type, but it's still grounded.
 			if (!negateImmunity && this.hasType('Wind') && !(this.hasType('???') && 'perch' in this.volatiles)) return false;
-			if (this.hasAbility('aircushion')) return this.battle.field.isWeather('duststorm');
+			if (this.hasAbility('aircushion') && !this.battle.field.isWeather("duststorm")) return false;
 			if ('magnetrise' in this.volatiles) return false;
 			if ('telekinesis' in this.volatiles) return false;
 			return item !== 'airballoon' && item !== 'floatingstone';

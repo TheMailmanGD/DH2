@@ -1,12 +1,12 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	uxie: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	barraskewda: {
 		tier: "NS",
 	},
 	minior: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	kingambit: {
 		tier: "NS",
@@ -57,7 +57,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NS",
 	},
 	crustle: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	bouffalant: {
 		tier: "NS",
@@ -72,7 +72,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Extinct",
 	},
 	orbeetle: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	mandibuzz: {
 		tier: "NS",
@@ -108,7 +108,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NS",
 	},
 	pyroar: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	eldegoss: {
 		tier: "NS",
@@ -123,36 +123,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NS",
 	},
 	dragaplunge: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	ironblimp: {
-		tier: "Extinct",
+		tier: "NS",
 	},
 	puffache: {
 		tier: "NS",
 	},
 	fushimmer: {
-		tier: "NS",
-	},
-	queenialis: {
-		tier: "NS",
-	},
-	forotten: {
-		tier: "NS",
-	},
-	ironshrimp: {
-		tier: "NS",
-	},
-	blimplin: {
-		tier: "NS",
-	},
-	monoritor: {
-		tier: "NS",
-	},
-	dragapex: {
-		tier: "NS",
-	},
-	crabrobber: {
 		tier: "NS",
 	},
 };

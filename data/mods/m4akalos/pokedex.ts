@@ -237,11 +237,11 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 
 	skarmory: {
 		inherit: true,
-		mega: "skarmorymegay",
-		megaName: "Skarmory-Mega-Y",
+		mega: "skarmorymega",
+		megaName: "Skarmory-Mega",
 		megaAbility: {0: "Poison Point"},
 		megaStats: {hp: 65, atk: 95, def: 158, spa: 40, spd: 105, spe: 102},
-		megaStone: "Skarmorite-Y",
+		megaStone: "Skarmorite",
 		megaCreator: "EeveeGirl1380",
 	},
 
@@ -258,11 +258,11 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 
 	chesnaught: {
 		inherit: true,
-		mega: "chesnaughtmegay",
-		megaName: "Chesnaught-Mega-Y",
+		mega: "chesnaughtmega",
+		megaName: "Chesnaught-Mega",
 		megaAbility: {0: "Flash Fire"},
 		megaStats: {hp: 88, atk: 137, def: 142, spa: 74, spd: 95, spe: 94},
-		megaStone: "Chesnite-Y",
+		megaStone: "Chesnite",
 		megaCreator: "BlueRay",
 		movepoolAdditions: ["bodypress", "icehammer"],
 	},
@@ -316,11 +316,11 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 
 	pyroar: {
 		inherit: true,
-		mega: "pyroarmegay",
-		megaName: "Pyroar-Mega-Y",
+		mega: "pyroarmega",
+		megaName: "Pyroar-Mega",
 		megaAbility: {0: "Grassy Surge"},
 		megaStats: {hp: 86, atk: 68, def: 92, spa: 149, spd: 86, spe: 126},
-		megaStone: "Pyroarite-Y",
+		megaStone: "Pyroarite",
 		megaCreator: "The Damned",
 		movepoolAdditions: ["energyball", "grassyterrain", "morningsun", "scorchingsands"],
 	},

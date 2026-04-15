@@ -90,7 +90,7 @@ Main's SSL deploy script from Let's Encrypt looks like:
  *   know what you are doing
  * @type {false | string[]}.
  */
-exports.proxyip = ["0.0.0.0"];
+exports.proxyip = false;
 
 /**
  * Various debug options
@@ -272,7 +272,7 @@ exports.nothrottle = false;
 /**
  * Removes all ip-based alt checking.
  */
-exports.noipchecks = true;
+exports.noipchecks = false;
 
 /**
  * controls the behavior of the /battlesearch command
@@ -723,10 +723,6 @@ exports.grouplist = [
 		showmedia: true,
 		exportinputlog: true,
 		importinputlog: true,
-		tournaments: true,
-		minigame: true,
-		tournaments: true,
-		gamemoderation: true,
 	},
 	{
 		symbol: '^',

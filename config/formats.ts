@@ -18,12 +18,19 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: FormatList = [
+	{
+		section: "Chaos Singles",
+		column: 1,
+	},
+	{
+		name: "[Gen 9] Chaos AG",
+	}
 	///////////////////////////////////////////////////////////////
 	///////////////////// Gen 9 Pet Mods //////////////////////////
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Gen 9 Pet Mods",
-		column: 1,
+		column: 3,
 		// name: "gen9petmods",
 	},
 	{
@@ -1616,7 +1623,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Gen 8 Pet Mods",
-		column: 1,
+		column: 3,
 		// name: "gen8petmods",
 	},
 	{
@@ -2369,7 +2376,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Solomods",
-		column: 2,
+		column: 4,
 	},
 	{
 		name: "[Gen 9] A Golden Experience",
@@ -3927,7 +3934,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Pet Mods Bonus Formats",
-		column: 3,
+		column: 5,
 		// name: "petmodsbonusformats",
 	},
 	{
@@ -4112,7 +4119,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "ROPMM Formats",
-		column: 3,
+		column: 5,
 		// name: "ropmmformats",
 	},
 	{
@@ -4353,7 +4360,7 @@ export const Formats: FormatList = [
 	},
 	{
 		section: "Official Smogon Formats",
-		column: 3,
+		column: 5,
 		// name: "officialsmogonformats",
 	},
 	{
@@ -4600,7 +4607,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Official Non-Smogon Formats",
-		column: 3,
+		column: 5,
 		// name: "officialnonsmogonformats",
 	},
 	{
@@ -4669,7 +4676,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Non-Pet Mod Formats",
-		column: 3,
+		column: 5,
 		// name: "nonpetmodformats",
 	},
 	{
@@ -4953,7 +4960,7 @@ export const Formats: FormatList = [
 	},
 	{
 		section: "Modern Gen Series",
-		column: 3,
+		column: 5,
 		// name: "moderngenseries",
 	},
 	{
